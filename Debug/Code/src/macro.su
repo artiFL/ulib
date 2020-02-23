@@ -1,0 +1,6 @@
+macro.c:11:6:Delay	16	static
+macro.c:19:6:Blink_init	4	static
+macro.c:32:6:Blink_Red	16	static
+macro.c:42:6:Blink_Blue	16	static
+macro.c:53:6:Clock_MAX	4	static
+macro.c:99:9:Clock_init	4	static

@@ -1,0 +1,555 @@
+Archive member included to satisfy reference by file (symbol)
+
+d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7e-m/fpu/fpv5-sp-d16\libc_nano.a(lib_a-init.o)
+                              Startup\startup_stm32f767xx.o (__libc_init_array)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+FLASH            0x08000000         0x00200000         xr
+DTCMRAM          0x20000000         0x00020000         xrw
+SRAM1            0x20020000         0x0005c000         xrw
+SRAM2            0x2007c000         0x00004000         xrw
+MEMORY_B1        0x60000000         0x00000000         xr
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/fpu/fpv5-sp-d16/crti.o
+LOAD d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/fpu/fpv5-sp-d16/crtbegin.o
+LOAD CMSIS\src\system_stm32f7xx.o
+LOAD Code\src\main.o
+LOAD Startup\startup_stm32f767xx.o
+                0x00000080                malloc_getpagesize_P = 0x80
+START GROUP
+LOAD d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7e-m/fpu/fpv5-sp-d16\libc_nano.a
+LOAD d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7e-m/fpu/fpv5-sp-d16\libm.a
+END GROUP
+START GROUP
+LOAD d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/fpu/fpv5-sp-d16\libgcc.a
+LOAD d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7e-m/fpu/fpv5-sp-d16\libc_nano.a
+END GROUP
+START GROUP
+LOAD d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/fpu/fpv5-sp-d16\libgcc.a
+LOAD d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7e-m/fpu/fpv5-sp-d16\libc_nano.a
+LOAD d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7e-m/fpu/fpv5-sp-d16\libnosys.a
+END GROUP
+START GROUP
+LOAD d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/fpu/fpv5-sp-d16\libgcc.a
+LOAD d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7e-m/fpu/fpv5-sp-d16\libc_nano.a
+LOAD d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7e-m/fpu/fpv5-sp-d16\libnosys.a
+END GROUP
+LOAD d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/fpu/fpv5-sp-d16/crtend.o
+LOAD d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/fpu/fpv5-sp-d16/crtn.o
+                0x20080000                _estack = 0x20080000
+                0x00000000                _Min_Heap_Size = 0x0
+                0x00000400                _Min_Stack_Size = 0x400
+
+.isr_vector     0x08000000      0x1f8
+                0x08000000                . = ALIGN (0x4)
+ *(.isr_vector)
+ .isr_vector    0x08000000      0x1f8 Startup\startup_stm32f767xx.o
+                0x08000000                g_pfnVectors
+                0x080001f8                . = ALIGN (0x4)
+
+.text           0x080001f8      0x274
+                0x080001f8                . = ALIGN (0x4)
+ *(.text)
+ .text          0x080001f8        0x0 d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/fpu/fpv5-sp-d16/crti.o
+ .text          0x080001f8       0x40 d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/fpu/fpv5-sp-d16/crtbegin.o
+ .text          0x08000238      0x160 CMSIS\src\system_stm32f7xx.o
+                0x08000238                SystemInit
+                0x080002a4                SystemCoreClockUpdate
+ .text          0x08000398        0x6 Code\src\main.o
+                0x08000398                main
+ .text          0x0800039e       0x14 Startup\startup_stm32f767xx.o
+ .text          0x080003b2        0x0 d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7e-m/fpu/fpv5-sp-d16\libc_nano.a(lib_a-init.o)
+ .text          0x080003b2        0x0 d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/fpu/fpv5-sp-d16/crtend.o
+ .text          0x080003b2        0x0 d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/fpu/fpv5-sp-d16/crtn.o
+ *(.text*)
+ *fill*         0x080003b2        0x2 
+ .text.Reset_Handler
+                0x080003b4       0x50 Startup\startup_stm32f767xx.o
+                0x080003b4                Reset_Handler
+ .text.Default_Handler
+                0x08000404        0x2 Startup\startup_stm32f767xx.o
+                0x08000404                RTC_Alarm_IRQHandler
+                0x08000404                EXTI2_IRQHandler
+                0x08000404                TIM8_CC_IRQHandler
+                0x08000404                DebugMon_Handler
+                0x08000404                UART8_IRQHandler
+                0x08000404                SPI4_IRQHandler
+                0x08000404                TIM1_CC_IRQHandler
+                0x08000404                DMA2_Stream5_IRQHandler
+                0x08000404                HardFault_Handler
+                0x08000404                JPEG_IRQHandler
+                0x08000404                DMA1_Stream5_IRQHandler
+                0x08000404                SysTick_Handler
+                0x08000404                CAN3_RX1_IRQHandler
+                0x08000404                PVD_IRQHandler
+                0x08000404                TAMP_STAMP_IRQHandler
+                0x08000404                PendSV_Handler
+                0x08000404                NMI_Handler
+                0x08000404                CAN2_RX1_IRQHandler
+                0x08000404                EXTI3_IRQHandler
+                0x08000404                TIM8_TRG_COM_TIM14_IRQHandler
+                0x08000404                DFSDM1_FLT1_IRQHandler
+                0x08000404                TIM1_UP_TIM10_IRQHandler
+                0x08000404                TIM8_UP_TIM13_IRQHandler
+                0x08000404                I2C3_ER_IRQHandler
+                0x08000404                DFSDM1_FLT2_IRQHandler
+                0x08000404                EXTI0_IRQHandler
+                0x08000404                I2C2_EV_IRQHandler
+                0x08000404                DMA1_Stream2_IRQHandler
+                0x08000404                CAN1_RX0_IRQHandler
+                0x08000404                FPU_IRQHandler
+                0x08000404                OTG_HS_WKUP_IRQHandler
+                0x08000404                CAN3_SCE_IRQHandler
+                0x08000404                UsageFault_Handler
+                0x08000404                LTDC_ER_IRQHandler
+                0x08000404                CAN2_SCE_IRQHandler
+                0x08000404                DMA2_Stream2_IRQHandler
+                0x08000404                SPI1_IRQHandler
+                0x08000404                TIM6_DAC_IRQHandler
+                0x08000404                TIM1_BRK_TIM9_IRQHandler
+                0x08000404                DCMI_IRQHandler
+                0x08000404                CAN2_RX0_IRQHandler
+                0x08000404                DMA2_Stream3_IRQHandler
+                0x08000404                SAI2_IRQHandler
+                0x08000404                DFSDM1_FLT3_IRQHandler
+                0x08000404                USART6_IRQHandler
+                0x08000404                CAN3_RX0_IRQHandler
+                0x08000404                USART3_IRQHandler
+                0x08000404                CAN1_RX1_IRQHandler
+                0x08000404                UART5_IRQHandler
+                0x08000404                DMA2_Stream0_IRQHandler
+                0x08000404                TIM4_IRQHandler
+                0x08000404                QUADSPI_IRQHandler
+                0x08000404                I2C1_EV_IRQHandler
+                0x08000404                DMA1_Stream6_IRQHandler
+                0x08000404                DMA1_Stream1_IRQHandler
+                0x08000404                UART4_IRQHandler
+                0x08000404                TIM3_IRQHandler
+                0x08000404                RCC_IRQHandler
+                0x08000404                TIM8_BRK_TIM12_IRQHandler
+                0x08000404                Default_Handler
+                0x08000404                CEC_IRQHandler
+                0x08000404                EXTI15_10_IRQHandler
+                0x08000404                ADC_IRQHandler
+                0x08000404                DMA1_Stream7_IRQHandler
+                0x08000404                SPI5_IRQHandler
+                0x08000404                TIM7_IRQHandler
+                0x08000404                SDMMC1_IRQHandler
+                0x08000404                CAN2_TX_IRQHandler
+                0x08000404                TIM5_IRQHandler
+                0x08000404                DMA2_Stream7_IRQHandler
+                0x08000404                I2C3_EV_IRQHandler
+                0x08000404                EXTI9_5_IRQHandler
+                0x08000404                RTC_WKUP_IRQHandler
+                0x08000404                LTDC_IRQHandler
+                0x08000404                ETH_WKUP_IRQHandler
+                0x08000404                SPDIF_RX_IRQHandler
+                0x08000404                SPI2_IRQHandler
+                0x08000404                OTG_HS_EP1_IN_IRQHandler
+                0x08000404                MemManage_Handler
+                0x08000404                DMA1_Stream0_IRQHandler
+                0x08000404                CAN1_TX_IRQHandler
+                0x08000404                SVC_Handler
+                0x08000404                EXTI4_IRQHandler
+                0x08000404                RNG_IRQHandler
+                0x08000404                ETH_IRQHandler
+                0x08000404                OTG_HS_EP1_OUT_IRQHandler
+                0x08000404                WWDG_IRQHandler
+                0x08000404                SPI6_IRQHandler
+                0x08000404                MDIOS_IRQHandler
+                0x08000404                I2C4_EV_IRQHandler
+                0x08000404                CAN3_TX_IRQHandler
+                0x08000404                TIM2_IRQHandler
+                0x08000404                OTG_FS_WKUP_IRQHandler
+                0x08000404                TIM1_TRG_COM_TIM11_IRQHandler
+                0x08000404                OTG_HS_IRQHandler
+                0x08000404                DMA2D_IRQHandler
+                0x08000404                EXTI1_IRQHandler
+                0x08000404                SDMMC2_IRQHandler
+                0x08000404                UART7_IRQHandler
+                0x08000404                USART2_IRQHandler
+                0x08000404                DFSDM1_FLT0_IRQHandler
+                0x08000404                I2C2_ER_IRQHandler
+                0x08000404                DMA2_Stream1_IRQHandler
+                0x08000404                CAN1_SCE_IRQHandler
+                0x08000404                FLASH_IRQHandler
+                0x08000404                DMA2_Stream4_IRQHandler
+                0x08000404                BusFault_Handler
+                0x08000404                USART1_IRQHandler
+                0x08000404                OTG_FS_IRQHandler
+                0x08000404                SPI3_IRQHandler
+                0x08000404                DMA1_Stream4_IRQHandler
+                0x08000404                I2C1_ER_IRQHandler
+                0x08000404                FMC_IRQHandler
+                0x08000404                LPTIM1_IRQHandler
+                0x08000404                I2C4_ER_IRQHandler
+                0x08000404                DMA2_Stream6_IRQHandler
+                0x08000404                SAI1_IRQHandler
+                0x08000404                DMA1_Stream3_IRQHandler
+ *fill*         0x08000406        0x2 
+ .text.__libc_init_array
+                0x08000408       0x48 d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7e-m/fpu/fpv5-sp-d16\libc_nano.a(lib_a-init.o)
+                0x08000408                __libc_init_array
+ *(.glue_7)
+ .glue_7        0x08000450        0x0 linker stubs
+ *(.glue_7t)
+ .glue_7t       0x08000450        0x0 linker stubs
+ *(.eh_frame)
+ .eh_frame      0x08000450        0x0 d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/fpu/fpv5-sp-d16/crtbegin.o
+ .eh_frame      0x08000450        0x4 d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/fpu/fpv5-sp-d16/crtend.o
+ *(.init)
+ .init          0x08000454        0x4 d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/fpu/fpv5-sp-d16/crti.o
+                0x08000454                _init
+ .init          0x08000458        0x8 d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/fpu/fpv5-sp-d16/crtn.o
+ *(.fini)
+ .fini          0x08000460        0x4 d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/fpu/fpv5-sp-d16/crti.o
+                0x08000460                _fini
+ .fini          0x08000464        0x8 d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/fpu/fpv5-sp-d16/crtn.o
+                0x0800046c                . = ALIGN (0x4)
+                0x0800046c                _etext = .
+
+.vfp11_veneer   0x0800046c        0x0
+ .vfp11_veneer  0x0800046c        0x0 linker stubs
+
+.v4_bx          0x0800046c        0x0
+ .v4_bx         0x0800046c        0x0 linker stubs
+
+.iplt           0x0800046c        0x0
+ .iplt          0x0800046c        0x0 d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/fpu/fpv5-sp-d16/crtbegin.o
+
+.rodata         0x0800046c       0x18
+                0x0800046c                . = ALIGN (0x4)
+ *(.rodata)
+ .rodata        0x0800046c       0x18 CMSIS\src\system_stm32f7xx.o
+                0x0800046c                AHBPrescTable
+                0x0800047c                APBPrescTable
+ *(.rodata*)
+                0x08000484                . = ALIGN (0x4)
+
+.rel.dyn        0x08000484        0x0
+ .rel.iplt      0x08000484        0x0 d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/fpu/fpv5-sp-d16/crtbegin.o
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+
+.ARM            0x08000484        0x0
+                0x08000484                __exidx_start = .
+ *(.ARM.exidx*)
+                0x08000484                __exidx_end = .
+
+.preinit_array  0x08000484        0x0
+                0x08000484                PROVIDE (__preinit_array_start, .)
+ *(.preinit_array*)
+                0x08000484                PROVIDE (__preinit_array_end, .)
+
+.init_array     0x08000484        0x4
+                0x08000484                PROVIDE (__init_array_start, .)
+ *(SORT(.init_array.*))
+ *(.init_array*)
+ .init_array    0x08000484        0x4 d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/fpu/fpv5-sp-d16/crtbegin.o
+                0x08000488                PROVIDE (__init_array_end, .)
+
+.fini_array     0x08000488        0x4
+                [!provide]                PROVIDE (__fini_array_start, .)
+ *(SORT(.fini_array.*))
+ *(.fini_array*)
+ .fini_array    0x08000488        0x4 d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/fpu/fpv5-sp-d16/crtbegin.o
+                [!provide]                PROVIDE (__fini_array_end, .)
+                0x0800048c                _sidata = LOADADDR (.data)
+
+.data           0x20020000        0x8 load address 0x0800048c
+                0x20020000                . = ALIGN (0x4)
+                0x20020000                _sdata = .
+ *(.data)
+ .data          0x20020000        0x0 d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/fpu/fpv5-sp-d16/crti.o
+ .data          0x20020000        0x4 d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/fpu/fpv5-sp-d16/crtbegin.o
+                0x20020000                __dso_handle
+ .data          0x20020004        0x4 CMSIS\src\system_stm32f7xx.o
+                0x20020004                SystemCoreClock
+ .data          0x20020008        0x0 Code\src\main.o
+ .data          0x20020008        0x0 Startup\startup_stm32f767xx.o
+ .data          0x20020008        0x0 d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7e-m/fpu/fpv5-sp-d16\libc_nano.a(lib_a-init.o)
+ .data          0x20020008        0x0 d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/fpu/fpv5-sp-d16/crtend.o
+ .data          0x20020008        0x0 d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/fpu/fpv5-sp-d16/crtn.o
+ *(.data*)
+                0x20020008                . = ALIGN (0x4)
+                0x20020008                _edata = .
+                0x08000494                _sidtcmram = LOADADDR (.dtcmram)
+
+.igot.plt       0x20020008        0x0 load address 0x08000494
+ .igot.plt      0x20020008        0x0 d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/fpu/fpv5-sp-d16/crtbegin.o
+
+.dtcmram        0x20000000        0x0 load address 0x08000494
+                0x20000000                . = ALIGN (0x4)
+                0x20000000                _sdtcmram = .
+ *(.dtcmram)
+ *(.dtcmram*)
+                0x20000000                . = ALIGN (0x4)
+                0x20000000                _edtcmram = .
+                0x08000494                _sisram2 = LOADADDR (.sram2)
+
+.sram2          0x2007c000        0x0 load address 0x08000494
+                0x2007c000                . = ALIGN (0x4)
+                0x2007c000                _ssram2 = .
+ *(.sram2)
+ *(.sram2*)
+                0x2007c000                . = ALIGN (0x4)
+                0x2007c000                _esram2 = .
+                0x2007c000                . = ALIGN (0x4)
+
+.bss            0x20020008       0x1c
+                0x20020008                _sbss = .
+                0x20020008                __bss_start__ = _sbss
+ *(.bss)
+ .bss           0x20020008        0x0 d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/fpu/fpv5-sp-d16/crti.o
+ .bss           0x20020008       0x1c d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/fpu/fpv5-sp-d16/crtbegin.o
+ .bss           0x20020024        0x0 CMSIS\src\system_stm32f7xx.o
+ .bss           0x20020024        0x0 Code\src\main.o
+ .bss           0x20020024        0x0 Startup\startup_stm32f767xx.o
+ .bss           0x20020024        0x0 d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7e-m/fpu/fpv5-sp-d16\libc_nano.a(lib_a-init.o)
+ .bss           0x20020024        0x0 d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/fpu/fpv5-sp-d16/crtend.o
+ .bss           0x20020024        0x0 d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/fpu/fpv5-sp-d16/crtn.o
+ *(.bss*)
+ *(COMMON)
+                0x20020024                . = ALIGN (0x4)
+                0x20020024                _ebss = .
+                0x20020024                __bss_end__ = _ebss
+
+._user_heap_stack
+                0x20020024      0x400
+                0x20020024                . = ALIGN (0x4)
+                [!provide]                PROVIDE (end, .)
+                [!provide]                PROVIDE (_end, .)
+                0x20020024                . = (. + _Min_Heap_Size)
+                0x20020424                . = (. + _Min_Stack_Size)
+ *fill*         0x20020024      0x400 
+                0x20020424                . = ALIGN (0x4)
+
+.memory_b1_text
+ *(.mb1text)
+ *(.mb1text*)
+ *(.mb1rodata)
+ *(.mb1rodata*)
+
+/DISCARD/
+ libc.a(*)
+ libm.a(*)
+ libgcc.a(*)
+
+.ARM.attributes
+                0x00000000       0x30
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x22 d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/fpu/fpv5-sp-d16/crti.o
+ .ARM.attributes
+                0x00000022       0x34 d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/fpu/fpv5-sp-d16/crtbegin.o
+ .ARM.attributes
+                0x00000056       0x39 CMSIS\src\system_stm32f7xx.o
+ .ARM.attributes
+                0x0000008f       0x39 Code\src\main.o
+ .ARM.attributes
+                0x000000c8       0x21 Startup\startup_stm32f767xx.o
+ .ARM.attributes
+                0x000000e9       0x34 d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7e-m/fpu/fpv5-sp-d16\libc_nano.a(lib_a-init.o)
+ .ARM.attributes
+                0x0000011d       0x34 d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/fpu/fpv5-sp-d16/crtend.o
+ .ARM.attributes
+                0x00000151       0x22 d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/fpu/fpv5-sp-d16/crtn.o
+OUTPUT(example.elf elf32-littlearm)
+
+.debug_info     0x00000000      0x877
+ .debug_info    0x00000000      0x6e7 CMSIS\src\system_stm32f7xx.o
+ .debug_info    0x000006e7      0x12b Code\src\main.o
+ .debug_info    0x00000812       0x65 Startup\startup_stm32f767xx.o
+
+.debug_abbrev   0x00000000      0x1cf
+ .debug_abbrev  0x00000000      0x12a CMSIS\src\system_stm32f7xx.o
+ .debug_abbrev  0x0000012a       0x93 Code\src\main.o
+ .debug_abbrev  0x000001bd       0x12 Startup\startup_stm32f767xx.o
+
+.debug_aranges  0x00000000       0x68
+ .debug_aranges
+                0x00000000       0x20 CMSIS\src\system_stm32f7xx.o
+ .debug_aranges
+                0x00000020       0x20 Code\src\main.o
+ .debug_aranges
+                0x00000040       0x28 Startup\startup_stm32f767xx.o
+
+.debug_line     0x00000000      0x32d
+ .debug_line    0x00000000      0x175 CMSIS\src\system_stm32f7xx.o
+ .debug_line    0x00000175      0x139 Code\src\main.o
+ .debug_line    0x000002ae       0x7f Startup\startup_stm32f767xx.o
+
+.debug_str      0x00000000      0x419
+ .debug_str     0x00000000      0x401 CMSIS\src\system_stm32f7xx.o
+                                0x453 (size before relaxing)
+ .debug_str     0x00000401       0x18 Code\src\main.o
+                                0x1d9 (size before relaxing)
+
+.comment        0x00000000       0x7c
+ .comment       0x00000000       0x7c CMSIS\src\system_stm32f7xx.o
+                                 0x7d (size before relaxing)
+ .comment       0x0000007c       0x7d Code\src\main.o
+
+.debug_frame    0x00000000       0xac
+ .debug_frame   0x00000000       0x58 CMSIS\src\system_stm32f7xx.o
+ .debug_frame   0x00000058       0x28 Code\src\main.o
+ .debug_frame   0x00000080       0x2c d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7e-m/fpu/fpv5-sp-d16\libc_nano.a(lib_a-init.o)
+
+.debug_ranges   0x00000000       0x20
+ .debug_ranges  0x00000000       0x20 Startup\startup_stm32f767xx.o
+
+Cross Reference Table
+
+Symbol                                            File
+ADC_IRQHandler                                    Startup\startup_stm32f767xx.o
+AHBPrescTable                                     CMSIS\src\system_stm32f7xx.o
+APBPrescTable                                     CMSIS\src\system_stm32f7xx.o
+BusFault_Handler                                  Startup\startup_stm32f767xx.o
+CAN1_RX0_IRQHandler                               Startup\startup_stm32f767xx.o
+CAN1_RX1_IRQHandler                               Startup\startup_stm32f767xx.o
+CAN1_SCE_IRQHandler                               Startup\startup_stm32f767xx.o
+CAN1_TX_IRQHandler                                Startup\startup_stm32f767xx.o
+CAN2_RX0_IRQHandler                               Startup\startup_stm32f767xx.o
+CAN2_RX1_IRQHandler                               Startup\startup_stm32f767xx.o
+CAN2_SCE_IRQHandler                               Startup\startup_stm32f767xx.o
+CAN2_TX_IRQHandler                                Startup\startup_stm32f767xx.o
+CAN3_RX0_IRQHandler                               Startup\startup_stm32f767xx.o
+CAN3_RX1_IRQHandler                               Startup\startup_stm32f767xx.o
+CAN3_SCE_IRQHandler                               Startup\startup_stm32f767xx.o
+CAN3_TX_IRQHandler                                Startup\startup_stm32f767xx.o
+CEC_IRQHandler                                    Startup\startup_stm32f767xx.o
+DCMI_IRQHandler                                   Startup\startup_stm32f767xx.o
+DFSDM1_FLT0_IRQHandler                            Startup\startup_stm32f767xx.o
+DFSDM1_FLT1_IRQHandler                            Startup\startup_stm32f767xx.o
+DFSDM1_FLT2_IRQHandler                            Startup\startup_stm32f767xx.o
+DFSDM1_FLT3_IRQHandler                            Startup\startup_stm32f767xx.o
+DMA1_Stream0_IRQHandler                           Startup\startup_stm32f767xx.o
+DMA1_Stream1_IRQHandler                           Startup\startup_stm32f767xx.o
+DMA1_Stream2_IRQHandler                           Startup\startup_stm32f767xx.o
+DMA1_Stream3_IRQHandler                           Startup\startup_stm32f767xx.o
+DMA1_Stream4_IRQHandler                           Startup\startup_stm32f767xx.o
+DMA1_Stream5_IRQHandler                           Startup\startup_stm32f767xx.o
+DMA1_Stream6_IRQHandler                           Startup\startup_stm32f767xx.o
+DMA1_Stream7_IRQHandler                           Startup\startup_stm32f767xx.o
+DMA2D_IRQHandler                                  Startup\startup_stm32f767xx.o
+DMA2_Stream0_IRQHandler                           Startup\startup_stm32f767xx.o
+DMA2_Stream1_IRQHandler                           Startup\startup_stm32f767xx.o
+DMA2_Stream2_IRQHandler                           Startup\startup_stm32f767xx.o
+DMA2_Stream3_IRQHandler                           Startup\startup_stm32f767xx.o
+DMA2_Stream4_IRQHandler                           Startup\startup_stm32f767xx.o
+DMA2_Stream5_IRQHandler                           Startup\startup_stm32f767xx.o
+DMA2_Stream6_IRQHandler                           Startup\startup_stm32f767xx.o
+DMA2_Stream7_IRQHandler                           Startup\startup_stm32f767xx.o
+DebugMon_Handler                                  Startup\startup_stm32f767xx.o
+Default_Handler                                   Startup\startup_stm32f767xx.o
+ETH_IRQHandler                                    Startup\startup_stm32f767xx.o
+ETH_WKUP_IRQHandler                               Startup\startup_stm32f767xx.o
+EXTI0_IRQHandler                                  Startup\startup_stm32f767xx.o
+EXTI15_10_IRQHandler                              Startup\startup_stm32f767xx.o
+EXTI1_IRQHandler                                  Startup\startup_stm32f767xx.o
+EXTI2_IRQHandler                                  Startup\startup_stm32f767xx.o
+EXTI3_IRQHandler                                  Startup\startup_stm32f767xx.o
+EXTI4_IRQHandler                                  Startup\startup_stm32f767xx.o
+EXTI9_5_IRQHandler                                Startup\startup_stm32f767xx.o
+FLASH_IRQHandler                                  Startup\startup_stm32f767xx.o
+FMC_IRQHandler                                    Startup\startup_stm32f767xx.o
+FPU_IRQHandler                                    Startup\startup_stm32f767xx.o
+HardFault_Handler                                 Startup\startup_stm32f767xx.o
+I2C1_ER_IRQHandler                                Startup\startup_stm32f767xx.o
+I2C1_EV_IRQHandler                                Startup\startup_stm32f767xx.o
+I2C2_ER_IRQHandler                                Startup\startup_stm32f767xx.o
+I2C2_EV_IRQHandler                                Startup\startup_stm32f767xx.o
+I2C3_ER_IRQHandler                                Startup\startup_stm32f767xx.o
+I2C3_EV_IRQHandler                                Startup\startup_stm32f767xx.o
+I2C4_ER_IRQHandler                                Startup\startup_stm32f767xx.o
+I2C4_EV_IRQHandler                                Startup\startup_stm32f767xx.o
+JPEG_IRQHandler                                   Startup\startup_stm32f767xx.o
+LPTIM1_IRQHandler                                 Startup\startup_stm32f767xx.o
+LTDC_ER_IRQHandler                                Startup\startup_stm32f767xx.o
+LTDC_IRQHandler                                   Startup\startup_stm32f767xx.o
+MDIOS_IRQHandler                                  Startup\startup_stm32f767xx.o
+MemManage_Handler                                 Startup\startup_stm32f767xx.o
+NMI_Handler                                       Startup\startup_stm32f767xx.o
+OTG_FS_IRQHandler                                 Startup\startup_stm32f767xx.o
+OTG_FS_WKUP_IRQHandler                            Startup\startup_stm32f767xx.o
+OTG_HS_EP1_IN_IRQHandler                          Startup\startup_stm32f767xx.o
+OTG_HS_EP1_OUT_IRQHandler                         Startup\startup_stm32f767xx.o
+OTG_HS_IRQHandler                                 Startup\startup_stm32f767xx.o
+OTG_HS_WKUP_IRQHandler                            Startup\startup_stm32f767xx.o
+PVD_IRQHandler                                    Startup\startup_stm32f767xx.o
+PendSV_Handler                                    Startup\startup_stm32f767xx.o
+QUADSPI_IRQHandler                                Startup\startup_stm32f767xx.o
+RCC_IRQHandler                                    Startup\startup_stm32f767xx.o
+RNG_IRQHandler                                    Startup\startup_stm32f767xx.o
+RTC_Alarm_IRQHandler                              Startup\startup_stm32f767xx.o
+RTC_WKUP_IRQHandler                               Startup\startup_stm32f767xx.o
+Reset_Handler                                     Startup\startup_stm32f767xx.o
+SAI1_IRQHandler                                   Startup\startup_stm32f767xx.o
+SAI2_IRQHandler                                   Startup\startup_stm32f767xx.o
+SDMMC1_IRQHandler                                 Startup\startup_stm32f767xx.o
+SDMMC2_IRQHandler                                 Startup\startup_stm32f767xx.o
+SPDIF_RX_IRQHandler                               Startup\startup_stm32f767xx.o
+SPI1_IRQHandler                                   Startup\startup_stm32f767xx.o
+SPI2_IRQHandler                                   Startup\startup_stm32f767xx.o
+SPI3_IRQHandler                                   Startup\startup_stm32f767xx.o
+SPI4_IRQHandler                                   Startup\startup_stm32f767xx.o
+SPI5_IRQHandler                                   Startup\startup_stm32f767xx.o
+SPI6_IRQHandler                                   Startup\startup_stm32f767xx.o
+SVC_Handler                                       Startup\startup_stm32f767xx.o
+SysTick_Handler                                   Startup\startup_stm32f767xx.o
+SystemCoreClock                                   CMSIS\src\system_stm32f7xx.o
+SystemCoreClockUpdate                             CMSIS\src\system_stm32f7xx.o
+SystemInit                                        CMSIS\src\system_stm32f7xx.o
+                                                  Startup\startup_stm32f767xx.o
+TAMP_STAMP_IRQHandler                             Startup\startup_stm32f767xx.o
+TIM1_BRK_TIM9_IRQHandler                          Startup\startup_stm32f767xx.o
+TIM1_CC_IRQHandler                                Startup\startup_stm32f767xx.o
+TIM1_TRG_COM_TIM11_IRQHandler                     Startup\startup_stm32f767xx.o
+TIM1_UP_TIM10_IRQHandler                          Startup\startup_stm32f767xx.o
+TIM2_IRQHandler                                   Startup\startup_stm32f767xx.o
+TIM3_IRQHandler                                   Startup\startup_stm32f767xx.o
+TIM4_IRQHandler                                   Startup\startup_stm32f767xx.o
+TIM5_IRQHandler                                   Startup\startup_stm32f767xx.o
+TIM6_DAC_IRQHandler                               Startup\startup_stm32f767xx.o
+TIM7_IRQHandler                                   Startup\startup_stm32f767xx.o
+TIM8_BRK_TIM12_IRQHandler                         Startup\startup_stm32f767xx.o
+TIM8_CC_IRQHandler                                Startup\startup_stm32f767xx.o
+TIM8_TRG_COM_TIM14_IRQHandler                     Startup\startup_stm32f767xx.o
+TIM8_UP_TIM13_IRQHandler                          Startup\startup_stm32f767xx.o
+UART4_IRQHandler                                  Startup\startup_stm32f767xx.o
+UART5_IRQHandler                                  Startup\startup_stm32f767xx.o
+UART7_IRQHandler                                  Startup\startup_stm32f767xx.o
+UART8_IRQHandler                                  Startup\startup_stm32f767xx.o
+USART1_IRQHandler                                 Startup\startup_stm32f767xx.o
+USART2_IRQHandler                                 Startup\startup_stm32f767xx.o
+USART3_IRQHandler                                 Startup\startup_stm32f767xx.o
+USART6_IRQHandler                                 Startup\startup_stm32f767xx.o
+UsageFault_Handler                                Startup\startup_stm32f767xx.o
+WWDG_IRQHandler                                   Startup\startup_stm32f767xx.o
+__deregister_frame_info                           d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/fpu/fpv5-sp-d16/crtbegin.o
+__dso_handle                                      d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/fpu/fpv5-sp-d16/crtbegin.o
+__init_array_end                                  d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7e-m/fpu/fpv5-sp-d16\libc_nano.a(lib_a-init.o)
+__init_array_start                                d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7e-m/fpu/fpv5-sp-d16\libc_nano.a(lib_a-init.o)
+__libc_init_array                                 d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7e-m/fpu/fpv5-sp-d16\libc_nano.a(lib_a-init.o)
+                                                  Startup\startup_stm32f767xx.o
+__preinit_array_end                               d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7e-m/fpu/fpv5-sp-d16\libc_nano.a(lib_a-init.o)
+__preinit_array_start                             d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7e-m/fpu/fpv5-sp-d16\libc_nano.a(lib_a-init.o)
+__register_frame_info                             d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/fpu/fpv5-sp-d16/crtbegin.o
+_ebss                                             Startup\startup_stm32f767xx.o
+_edata                                            Startup\startup_stm32f767xx.o
+_estack                                           Startup\startup_stm32f767xx.o
+_fini                                             d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/fpu/fpv5-sp-d16/crti.o
+_init                                             d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/fpu/fpv5-sp-d16/crti.o
+                                                  d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7e-m/fpu/fpv5-sp-d16\libc_nano.a(lib_a-init.o)
+_sbss                                             Startup\startup_stm32f767xx.o
+_sdata                                            Startup\startup_stm32f767xx.o
+_sidata                                           Startup\startup_stm32f767xx.o
+g_pfnVectors                                      Startup\startup_stm32f767xx.o
+main                                              Code\src\main.o
+                                                  Startup\startup_stm32f767xx.o

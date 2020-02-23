@@ -1,0 +1,2244 @@
+Archive member included to satisfy reference by file (symbol)
+
+F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                              Code\src\AES_XTS.o (AES_XTS_Encrypt_Init)
+d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7e-m/softfp/fpv5-sp-d16\libc.a(lib_a-init.o)
+                              Startup\startup_stm32f767xx.o (__libc_init_array)
+d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7e-m/softfp/fpv5-sp-d16\libc.a(lib_a-memcpy-stub.o)
+                              F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o) (memcpy)
+d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7e-m/softfp/fpv5-sp-d16\libc.a(lib_a-memmove.o)
+                              F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o) (memmove)
+d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7e-m/softfp/fpv5-sp-d16\libc.a(lib_a-memset.o)
+                              F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o) (memset)
+d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/softfp/fpv5-sp-d16\libgcc.a(_arm_addsubdf3.o)
+                              Code\src\ulib.o (__aeabi_f2d)
+d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/softfp/fpv5-sp-d16\libgcc.a(_arm_muldivdf3.o)
+                              Code\src\ulib.o (__aeabi_dmul)
+d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/softfp/fpv5-sp-d16\libgcc.a(_arm_truncdfsf2.o)
+                              Code\src\ulib.o (__aeabi_d2f)
+
+Allocating common symbols
+Common symbol       size              file
+
+flag_get_byte       0x1               Code\src\_Hendler.o
+temp                0x200             Code\src\AES_XTS.o
+flag_led_init       0x1               Code\src\_Hendler.o
+check               0x4               Code\src\AES_XTS.o
+STAT                0x1               Code\src\_Hendler.o
+addres              0x1               Code\src\_Hendler.o
+clock_TIM           0x4               Code\src\_Hendler.o
+T_ARR               0x4               Code\src\_Hendler.o
+LED                 0x1               Code\src\_Hendler.o
+bufferRessive       0x7c              Code\src\_Hendler.o
+str                 0x104             Code\src\_Hendler.o
+flag_get_array_byte
+                    0x1               Code\src\_Hendler.o
+AESctx              0x208             Code\src\AES_XTS.o
+new_array           0x64              Code\src\main.o
+flag_get_array_string
+                    0x1               Code\src\_Hendler.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+FLASH            0x08000000         0x00200000         xr
+DTCMRAM          0x20000000         0x00020000         xrw
+SRAM1            0x20020000         0x0005c000         xrw
+SRAM2            0x2007c000         0x00004000         xrw
+MEMORY_B1        0x60000000         0x00000000         xr
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/softfp/fpv5-sp-d16/crti.o
+LOAD d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/softfp/fpv5-sp-d16/crtbegin.o
+LOAD CMSIS\src\system_stm32f7xx.o
+LOAD Code\src\AES_XTS.o
+LOAD Code\src\_Hendler.o
+LOAD Code\src\main.o
+LOAD Code\src\ulib.o
+LOAD Startup\startup_stm32f767xx.o
+LOAD F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a
+                0x00000080                malloc_getpagesize_P = 0x80
+START GROUP
+LOAD d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7e-m/softfp/fpv5-sp-d16\libc.a
+LOAD d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7e-m/softfp/fpv5-sp-d16\libm.a
+END GROUP
+START GROUP
+LOAD d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/softfp/fpv5-sp-d16\libgcc.a
+LOAD d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7e-m/softfp/fpv5-sp-d16\libc.a
+END GROUP
+START GROUP
+LOAD d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/softfp/fpv5-sp-d16\libgcc.a
+LOAD d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7e-m/softfp/fpv5-sp-d16\libc.a
+LOAD d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7e-m/softfp/fpv5-sp-d16\libnosys.a
+END GROUP
+LOAD d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/softfp/fpv5-sp-d16/crtend.o
+LOAD d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/softfp/fpv5-sp-d16/crtn.o
+                0x20080000                _estack = 0x20080000
+                0x00000000                _Min_Heap_Size = 0x0
+                0x00000400                _Min_Stack_Size = 0x400
+
+.isr_vector     0x08000000      0x1f8
+                0x08000000                . = ALIGN (0x4)
+ *(.isr_vector)
+ .isr_vector    0x08000000      0x1f8 Startup\startup_stm32f767xx.o
+                0x08000000                g_pfnVectors
+                0x080001f8                . = ALIGN (0x4)
+
+.text           0x080001f8     0xe778
+                0x080001f8                . = ALIGN (0x4)
+ *(.text)
+ .text          0x080001f8        0x0 d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/softfp/fpv5-sp-d16/crti.o
+ .text          0x080001f8       0x40 d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/softfp/fpv5-sp-d16/crtbegin.o
+ .text          0x08000238      0x160 CMSIS\src\system_stm32f7xx.o
+                0x08000238                SystemInit
+                0x080002a4                SystemCoreClockUpdate
+ .text          0x08000398      0x214 Code\src\AES_XTS.o
+                0x08000458                AES_XTSinit
+                0x08000478                STM32_AES_XTS_Encrypt
+                0x080004f0                STM32_AES_XTS_Decrypt
+                0x08000568                Buffercmp
+ .text          0x080005ac       0x74 Code\src\_Hendler.o
+                0x080005ac                Error_Handler
+                0x080005c0                NMI_Handler
+                0x080005ce                HardFault_Handler
+                0x080005d4                MemManage_Handler
+                0x080005da                BusFault_Handler
+                0x080005e0                UsageFault_Handler
+                0x080005e6                SVC_Handler
+                0x080005f4                DebugMon_Handler
+                0x08000602                PendSV_Handler
+                0x08000610                SysTick_Handler
+ .text          0x08000620       0x90 Code\src\main.o
+                0x08000620                main
+ .text          0x080006b0      0xc4c Code\src\ulib.o
+                0x08000728                UASRT_init
+                0x08000820                USART1_IRQHandler
+                0x08000878                send_byte
+                0x080008a8                send_array
+                0x080008e2                send_array_byte
+                0x08000918                print_str
+                0x08000952                get_byte
+                0x080009a0                get_array_byte
+                0x08000a1c                get_array_str
+                0x08000a98                Connect_to_PC
+                0x08000ae4                indication_led_init
+                0x08000b98                blink
+                0x08000cbc                delay
+                0x08000ce0                HSE_Enable
+                0x08000dd4                RNG_Init
+                0x08000e04                number_gen
+                0x08000e50                PWM_Init
+                0x08000f10                PWM_Put
+                0x0800100c                interrupt_timer
+                0x08001080                TIM1_UP_TIM10_IRQHandler
+                0x080010a0                SPI_Init
+                0x080011d0                SPI_write_byte
+                0x080011f0                SPI_send_cmd
+                0x0800122c                SPI_send_data
+                0x08001268                SPI_send_16byte_data
+                0x080012a4                init_disp
+ .text          0x080012fc       0x14 Startup\startup_stm32f767xx.o
+ .text          0x08001310        0x0 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+ .text          0x08001310        0x0 d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7e-m/softfp/fpv5-sp-d16\libc.a(lib_a-init.o)
+ .text          0x08001310        0x0 d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7e-m/softfp/fpv5-sp-d16\libc.a(lib_a-memcpy-stub.o)
+ .text          0x08001310        0x0 d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7e-m/softfp/fpv5-sp-d16\libc.a(lib_a-memmove.o)
+ .text          0x08001310        0x0 d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7e-m/softfp/fpv5-sp-d16\libc.a(lib_a-memset.o)
+ .text          0x08001310      0x370 d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/softfp/fpv5-sp-d16\libgcc.a(_arm_addsubdf3.o)
+                0x08001310                __aeabi_drsub
+                0x08001318                __aeabi_dsub
+                0x08001318                __subdf3
+                0x0800131c                __aeabi_dadd
+                0x0800131c                __adddf3
+                0x08001594                __floatunsidf
+                0x08001594                __aeabi_ui2d
+                0x080015b4                __floatsidf
+                0x080015b4                __aeabi_i2d
+                0x080015d8                __aeabi_f2d
+                0x080015d8                __extendsfdf2
+                0x08001614                __floatundidf
+                0x08001614                __aeabi_ul2d
+                0x08001624                __floatdidf
+                0x08001624                __aeabi_l2d
+ .text          0x08001680      0x424 d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/softfp/fpv5-sp-d16\libgcc.a(_arm_muldivdf3.o)
+                0x08001680                __aeabi_dmul
+                0x08001680                __muldf3
+                0x080018d4                __divdf3
+                0x080018d4                __aeabi_ddiv
+ .text          0x08001aa4       0xa0 d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/softfp/fpv5-sp-d16\libgcc.a(_arm_truncdfsf2.o)
+                0x08001aa4                __truncdfsf2
+                0x08001aa4                __aeabi_d2f
+ .text          0x08001b44        0x0 d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/softfp/fpv5-sp-d16/crtend.o
+ .text          0x08001b44        0x0 d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/softfp/fpv5-sp-d16/crtn.o
+ *(.text*)
+ .text.Reset_Handler
+                0x08001b44       0x50 Startup\startup_stm32f767xx.o
+                0x08001b44                Reset_Handler
+ .text.Default_Handler
+                0x08001b94        0x2 Startup\startup_stm32f767xx.o
+                0x08001b94                RTC_Alarm_IRQHandler
+                0x08001b94                EXTI2_IRQHandler
+                0x08001b94                TIM8_CC_IRQHandler
+                0x08001b94                UART8_IRQHandler
+                0x08001b94                SPI4_IRQHandler
+                0x08001b94                TIM1_CC_IRQHandler
+                0x08001b94                DMA2_Stream5_IRQHandler
+                0x08001b94                JPEG_IRQHandler
+                0x08001b94                DMA1_Stream5_IRQHandler
+                0x08001b94                CAN3_RX1_IRQHandler
+                0x08001b94                PVD_IRQHandler
+                0x08001b94                TAMP_STAMP_IRQHandler
+                0x08001b94                CAN2_RX1_IRQHandler
+                0x08001b94                EXTI3_IRQHandler
+                0x08001b94                TIM8_TRG_COM_TIM14_IRQHandler
+                0x08001b94                DFSDM1_FLT1_IRQHandler
+                0x08001b94                TIM8_UP_TIM13_IRQHandler
+                0x08001b94                I2C3_ER_IRQHandler
+                0x08001b94                DFSDM1_FLT2_IRQHandler
+                0x08001b94                EXTI0_IRQHandler
+                0x08001b94                I2C2_EV_IRQHandler
+                0x08001b94                DMA1_Stream2_IRQHandler
+                0x08001b94                CAN1_RX0_IRQHandler
+                0x08001b94                FPU_IRQHandler
+                0x08001b94                OTG_HS_WKUP_IRQHandler
+                0x08001b94                CAN3_SCE_IRQHandler
+                0x08001b94                LTDC_ER_IRQHandler
+                0x08001b94                CAN2_SCE_IRQHandler
+                0x08001b94                DMA2_Stream2_IRQHandler
+                0x08001b94                SPI1_IRQHandler
+                0x08001b94                TIM6_DAC_IRQHandler
+                0x08001b94                TIM1_BRK_TIM9_IRQHandler
+                0x08001b94                DCMI_IRQHandler
+                0x08001b94                CAN2_RX0_IRQHandler
+                0x08001b94                DMA2_Stream3_IRQHandler
+                0x08001b94                SAI2_IRQHandler
+                0x08001b94                DFSDM1_FLT3_IRQHandler
+                0x08001b94                USART6_IRQHandler
+                0x08001b94                CAN3_RX0_IRQHandler
+                0x08001b94                USART3_IRQHandler
+                0x08001b94                CAN1_RX1_IRQHandler
+                0x08001b94                UART5_IRQHandler
+                0x08001b94                DMA2_Stream0_IRQHandler
+                0x08001b94                TIM4_IRQHandler
+                0x08001b94                QUADSPI_IRQHandler
+                0x08001b94                I2C1_EV_IRQHandler
+                0x08001b94                DMA1_Stream6_IRQHandler
+                0x08001b94                DMA1_Stream1_IRQHandler
+                0x08001b94                UART4_IRQHandler
+                0x08001b94                TIM3_IRQHandler
+                0x08001b94                RCC_IRQHandler
+                0x08001b94                TIM8_BRK_TIM12_IRQHandler
+                0x08001b94                Default_Handler
+                0x08001b94                CEC_IRQHandler
+                0x08001b94                EXTI15_10_IRQHandler
+                0x08001b94                ADC_IRQHandler
+                0x08001b94                DMA1_Stream7_IRQHandler
+                0x08001b94                SPI5_IRQHandler
+                0x08001b94                TIM7_IRQHandler
+                0x08001b94                SDMMC1_IRQHandler
+                0x08001b94                CAN2_TX_IRQHandler
+                0x08001b94                TIM5_IRQHandler
+                0x08001b94                DMA2_Stream7_IRQHandler
+                0x08001b94                I2C3_EV_IRQHandler
+                0x08001b94                EXTI9_5_IRQHandler
+                0x08001b94                RTC_WKUP_IRQHandler
+                0x08001b94                LTDC_IRQHandler
+                0x08001b94                ETH_WKUP_IRQHandler
+                0x08001b94                SPDIF_RX_IRQHandler
+                0x08001b94                SPI2_IRQHandler
+                0x08001b94                OTG_HS_EP1_IN_IRQHandler
+                0x08001b94                DMA1_Stream0_IRQHandler
+                0x08001b94                CAN1_TX_IRQHandler
+                0x08001b94                EXTI4_IRQHandler
+                0x08001b94                RNG_IRQHandler
+                0x08001b94                ETH_IRQHandler
+                0x08001b94                OTG_HS_EP1_OUT_IRQHandler
+                0x08001b94                WWDG_IRQHandler
+                0x08001b94                SPI6_IRQHandler
+                0x08001b94                MDIOS_IRQHandler
+                0x08001b94                I2C4_EV_IRQHandler
+                0x08001b94                CAN3_TX_IRQHandler
+                0x08001b94                TIM2_IRQHandler
+                0x08001b94                OTG_FS_WKUP_IRQHandler
+                0x08001b94                TIM1_TRG_COM_TIM11_IRQHandler
+                0x08001b94                OTG_HS_IRQHandler
+                0x08001b94                DMA2D_IRQHandler
+                0x08001b94                EXTI1_IRQHandler
+                0x08001b94                SDMMC2_IRQHandler
+                0x08001b94                UART7_IRQHandler
+                0x08001b94                USART2_IRQHandler
+                0x08001b94                DFSDM1_FLT0_IRQHandler
+                0x08001b94                I2C2_ER_IRQHandler
+                0x08001b94                DMA2_Stream1_IRQHandler
+                0x08001b94                CAN1_SCE_IRQHandler
+                0x08001b94                FLASH_IRQHandler
+                0x08001b94                DMA2_Stream4_IRQHandler
+                0x08001b94                OTG_FS_IRQHandler
+                0x08001b94                SPI3_IRQHandler
+                0x08001b94                DMA1_Stream4_IRQHandler
+                0x08001b94                I2C1_ER_IRQHandler
+                0x08001b94                FMC_IRQHandler
+                0x08001b94                LPTIM1_IRQHandler
+                0x08001b94                I2C4_ER_IRQHandler
+                0x08001b94                DMA2_Stream6_IRQHandler
+                0x08001b94                SAI1_IRQHandler
+                0x08001b94                DMA1_Stream3_IRQHandler
+ *fill*         0x08001b96        0x2 
+ .text.AES_keyschedule_enc_LL
+                0x08001b98      0x174 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+ .text.poly_xor
+                0x08001d0c       0x24 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+ .text.gfmul_x8
+                0x08001d30       0x40 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+ .text.gfmul_x4
+                0x08001d70       0x40 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+ .text.xts_new_tweak
+                0x08001db0       0x3c F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+ .text.desfunc  0x08001dec      0x1ec F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+ .text.deskey   0x08001fd8      0x1cc F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+ .text.reduce_add_sub
+                0x080021a4       0x54 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+ .text.barrett_reduce
+                0x080021f8      0x1b8 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+ .text.reduceRS
+                0x080023b0       0x7a F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+ *fill*         0x0800242a        0x2 
+ .text.c25519_select
+                0x0800242c      0x128 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+ .text.SHA1Transform
+                0x08002554      0x394 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+ .text.SHA256Transform
+                0x080028e8      0x270 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+ .text.SHA512Transform
+                0x08002b58      0x488 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+ .text.md5_process
+                0x08002fe0      0x7a4 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+ .text.DESstdInit
+                0x08003784       0x8e F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+ .text.TDESstdInit
+                0x08003812       0xc2 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+ .text.DRBG_AES128_Increment_v
+                0x080038d4       0x20 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+ .text.gfmul    0x080038f4       0xa6 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+ .text.AES_keyschedule_enc
+                0x0800399a       0x22 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800399a                AES_keyschedule_enc
+ .text.AES_general_SW_enc
+                0x080039bc      0x2b4 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x080039bc                AES_general_SW_enc
+ .text.AESgcmAppend
+                0x08003c70      0x390 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+ .text.AESgcmFinal
+                0x08004000      0x168 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+ .text.AESccmFinal
+                0x08004168       0x30 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+ .text.DRBG_AES128_Bcc
+                0x08004198       0x4c F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+ .text.DRBG_AES128_Update
+                0x080041e4       0x5a F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+ *fill*         0x0800423e        0x2 
+ .text.DRBG_AES128_Block_cipher_df.constprop.37
+                0x08004240       0xcc F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+ .text.crl_DRBG_AES128_Generate.part.31
+                0x0800430c      0x148 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+ .text.AES_keyschedule_dec
+                0x08004454       0xfc F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x08004454                AES_keyschedule_dec
+ .text.AESstdInit
+                0x08004550       0xd8 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+ .text.AES_XTS_Common_Init
+                0x08004628       0x92 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+ *fill*         0x080046ba        0x2 
+ .text.AES_general_SW_dec
+                0x080046bc      0x2b4 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x080046bc                AES_general_SW_dec
+ .text.AES_XTS_Common_Append.part.5
+                0x08004970      0x2c0 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+ .text.AES_ECB_Encrypt_Init
+                0x08004c30        0x6 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x08004c30                AES_ECB_Encrypt_Init
+ .text.AES_ECB_Encrypt_Append
+                0x08004c36       0x8e F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x08004c36                AES_ECB_Encrypt_Append
+ .text.AES_ECB_Encrypt_Finish
+                0x08004cc4       0x18 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x08004cc4                AES_ECB_Encrypt_Finish
+ .text.AES_ECB_Decrypt_Init
+                0x08004cdc        0x6 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x08004cdc                AES_ECB_Decrypt_Init
+ .text.AES_ECB_Decrypt_Append
+                0x08004ce2       0x86 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x08004ce2                AES_ECB_Decrypt_Append
+ .text.AES_ECB_Decrypt_Finish
+                0x08004d68       0x18 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x08004d68                AES_ECB_Decrypt_Finish
+ .text.AES_CBC_Encrypt_Init
+                0x08004d80        0x6 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x08004d80                AES_CBC_Encrypt_Init
+ .text.AES_CBC_Encrypt_Append
+                0x08004d86      0x19a F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x08004d86                AES_CBC_Encrypt_Append
+ .text.AES_CBC_Encrypt_Finish
+                0x08004f20       0x18 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x08004f20                AES_CBC_Encrypt_Finish
+ .text.AES_CBC_Decrypt_Init
+                0x08004f38        0x6 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x08004f38                AES_CBC_Decrypt_Init
+ .text.AES_CBC_Decrypt_Append
+                0x08004f3e      0x224 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x08004f3e                AES_CBC_Decrypt_Append
+ .text.AES_CBC_Decrypt_Finish
+                0x08005162       0x18 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x08005162                AES_CBC_Decrypt_Finish
+ .text.AES_CTR_Encrypt_Init
+                0x0800517a        0x6 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800517a                AES_CTR_Encrypt_Init
+ .text.AES_CTR_Encrypt_Append
+                0x08005180      0x1f4 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x08005180                AES_CTR_Encrypt_Append
+ .text.AES_CTR_Encrypt_Finish
+                0x08005374       0x18 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x08005374                AES_CTR_Encrypt_Finish
+ .text.AES_CTR_Decrypt_Init
+                0x0800538c        0x6 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800538c                AES_CTR_Decrypt_Init
+ .text.AES_CTR_Decrypt_Append
+                0x08005392        0x4 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x08005392                AES_CTR_Decrypt_Append
+ .text.AES_CTR_Decrypt_Finish
+                0x08005396        0x4 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x08005396                AES_CTR_Decrypt_Finish
+ .text.AES_GCM_Encrypt_Init
+                0x0800539a      0x1d2 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800539a                AES_GCM_Encrypt_Init
+ .text.AES_GCM_Header_Append
+                0x0800556c      0x11e F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800556c                AES_GCM_Header_Append
+ .text.AES_GCM_Encrypt_Append
+                0x0800568a       0x12 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800568a                AES_GCM_Encrypt_Append
+ .text.AES_GCM_Encrypt_Finish
+                0x0800569c        0x6 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800569c                AES_GCM_Encrypt_Finish
+ .text.AES_GCM_Decrypt_Init
+                0x080056a2        0x4 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x080056a2                AES_GCM_Decrypt_Init
+ .text.AES_GCM_Decrypt_Append
+                0x080056a6       0x12 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x080056a6                AES_GCM_Decrypt_Append
+ .text.AES_GCM_Decrypt_Finish
+                0x080056b8        0x8 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x080056b8                AES_GCM_Decrypt_Finish
+ .text.AES_CCM_Encrypt_Init
+                0x080056c0      0x1ce F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x080056c0                AES_CCM_Encrypt_Init
+ .text.AES_CCM_Header_Append
+                0x0800588e      0x19c F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800588e                AES_CCM_Header_Append
+ *fill*         0x08005a2a        0x2 
+ .text.AES_CCM_Encrypt_Append
+                0x08005a2c      0x314 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x08005a2c                AES_CCM_Encrypt_Append
+ .text.AES_CCM_Encrypt_Finish
+                0x08005d40       0x76 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x08005d40                AES_CCM_Encrypt_Finish
+ .text.AES_CCM_Decrypt_Init
+                0x08005db6        0x4 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x08005db6                AES_CCM_Decrypt_Init
+ .text.AES_CCM_Decrypt_Append
+                0x08005dba      0x1a4 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x08005dba                AES_CCM_Decrypt_Append
+ .text.AES_CCM_Decrypt_Finish
+                0x08005f5e       0xc4 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x08005f5e                AES_CCM_Decrypt_Finish
+ .text.AES_CMAC_Encrypt_Init
+                0x08006022       0x26 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x08006022                AES_CMAC_Encrypt_Init
+ .text.AES_CMAC_Encrypt_Append
+                0x08006048      0x2f8 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x08006048                AES_CMAC_Encrypt_Append
+ .text.AES_CMAC_Encrypt_Finish
+                0x08006340       0x6a F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x08006340                AES_CMAC_Encrypt_Finish
+ .text.AES_CMAC_Decrypt_Init
+                0x080063aa        0x4 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x080063aa                AES_CMAC_Decrypt_Init
+ .text.AES_CMAC_Decrypt_Append
+                0x080063ae        0x4 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x080063ae                AES_CMAC_Decrypt_Append
+ .text.AES_CMAC_Decrypt_Finish
+                0x080063b2       0xa6 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x080063b2                AES_CMAC_Decrypt_Finish
+ .text.AES_KeyWrap_Encrypt_Init
+                0x08006458       0x18 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x08006458                AES_KeyWrap_Encrypt_Init
+ .text.AES_KeyWrap_Encrypt_Append
+                0x08006470      0x12e F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x08006470                AES_KeyWrap_Encrypt_Append
+ .text.AES_KeyWrap_Encrypt_Finish
+                0x0800659e       0x18 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800659e                AES_KeyWrap_Encrypt_Finish
+ .text.AES_KeyWrap_Decrypt_Init
+                0x080065b6       0x18 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x080065b6                AES_KeyWrap_Decrypt_Init
+ .text.AES_KeyWrap_Decrypt_Append
+                0x080065ce      0x12a F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x080065ce                AES_KeyWrap_Decrypt_Append
+ .text.AES_KeyWrap_Decrypt_Finish
+                0x080066f8       0x30 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x080066f8                AES_KeyWrap_Decrypt_Finish
+ .text.AES_XTS_Encrypt_Init
+                0x08006728        0x6 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x08006728                AES_XTS_Encrypt_Init
+ .text.AES_XTS_Encrypt_Append
+                0x0800672e       0x22 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800672e                AES_XTS_Encrypt_Append
+ .text.AES_XTS_Encrypt_Finish
+                0x08006750       0x18 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x08006750                AES_XTS_Encrypt_Finish
+ .text.AES_XTS_Decrypt_Init
+                0x08006768        0x6 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x08006768                AES_XTS_Decrypt_Init
+ .text.AES_XTS_Decrypt_Append
+                0x0800676e       0x22 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800676e                AES_XTS_Decrypt_Append
+ .text.AES_XTS_Decrypt_Finish
+                0x08006790        0x4 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x08006790                AES_XTS_Decrypt_Finish
+ .text.AES_OFB_Encrypt_Init
+                0x08006794       0x54 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x08006794                AES_OFB_Encrypt_Init
+ .text.AES_OFB_Encrypt_Append
+                0x080067e8      0x11e F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x080067e8                AES_OFB_Encrypt_Append
+ .text.AES_OFB_Encrypt_Finish
+                0x08006906       0x18 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x08006906                AES_OFB_Encrypt_Finish
+ .text.AES_OFB_Decrypt_Init
+                0x0800691e        0x4 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800691e                AES_OFB_Decrypt_Init
+ .text.AES_OFB_Decrypt_Append
+                0x08006922        0x4 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x08006922                AES_OFB_Decrypt_Append
+ .text.AES_OFB_Decrypt_Finish
+                0x08006926        0x4 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x08006926                AES_OFB_Decrypt_Finish
+ *fill*         0x0800692a        0x2 
+ .text.AES_CFB_Encrypt_Init
+                0x0800692c       0x54 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800692c                AES_CFB_Encrypt_Init
+ .text.AES_CFB_Encrypt_Append
+                0x08006980      0x11e F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x08006980                AES_CFB_Encrypt_Append
+ .text.AES_CFB_Encrypt_Finish
+                0x08006a9e       0x18 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x08006a9e                AES_CFB_Encrypt_Finish
+ .text.AES_CFB_Decrypt_Init
+                0x08006ab6        0x4 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x08006ab6                AES_CFB_Decrypt_Init
+ .text.AES_CFB_Decrypt_Append
+                0x08006aba      0x124 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x08006aba                AES_CFB_Decrypt_Append
+ .text.AES_CFB_Decrypt_Finish
+                0x08006bde       0x18 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x08006bde                AES_CFB_Decrypt_Finish
+ .text.DES_ECB_Encrypt_Init
+                0x08006bf6        0x6 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x08006bf6                DES_ECB_Encrypt_Init
+ .text.DES_ECB_Encrypt_Append
+                0x08006bfc       0x84 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x08006bfc                DES_ECB_Encrypt_Append
+ .text.DES_ECB_Encrypt_Finish
+                0x08006c80       0x18 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x08006c80                DES_ECB_Encrypt_Finish
+ .text.DES_ECB_Decrypt_Init
+                0x08006c98        0x6 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x08006c98                DES_ECB_Decrypt_Init
+ .text.DES_ECB_Decrypt_Append
+                0x08006c9e        0x4 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x08006c9e                DES_ECB_Decrypt_Append
+ .text.DES_ECB_Decrypt_Finish
+                0x08006ca2       0x18 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x08006ca2                DES_ECB_Decrypt_Finish
+ .text.DES_CBC_Encrypt_Init
+                0x08006cba        0x6 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x08006cba                DES_CBC_Encrypt_Init
+ .text.DES_CBC_Encrypt_Append
+                0x08006cc0       0x88 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x08006cc0                DES_CBC_Encrypt_Append
+ .text.DES_CBC_Encrypt_Finish
+                0x08006d48       0x18 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x08006d48                DES_CBC_Encrypt_Finish
+ .text.DES_CBC_Decrypt_Init
+                0x08006d60        0x6 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x08006d60                DES_CBC_Decrypt_Init
+ .text.DES_CBC_Decrypt_Append
+                0x08006d66       0x98 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x08006d66                DES_CBC_Decrypt_Append
+ .text.DES_CBC_Decrypt_Finish
+                0x08006dfe       0x18 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x08006dfe                DES_CBC_Decrypt_Finish
+ .text.TDES_ECB_Encrypt_Init
+                0x08006e16        0x6 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x08006e16                TDES_ECB_Encrypt_Init
+ .text.TDES_ECB_Encrypt_Append
+                0x08006e1c       0xa2 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x08006e1c                TDES_ECB_Encrypt_Append
+ .text.TDES_ECB_Encrypt_Finish
+                0x08006ebe       0x18 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x08006ebe                TDES_ECB_Encrypt_Finish
+ .text.TDES_ECB_Decrypt_Init
+                0x08006ed6        0x6 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x08006ed6                TDES_ECB_Decrypt_Init
+ .text.TDES_ECB_Decrypt_Append
+                0x08006edc        0x4 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x08006edc                TDES_ECB_Decrypt_Append
+ .text.TDES_ECB_Decrypt_Finish
+                0x08006ee0       0x18 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x08006ee0                TDES_ECB_Decrypt_Finish
+ .text.TDES_CBC_Encrypt_Init
+                0x08006ef8        0x6 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x08006ef8                TDES_CBC_Encrypt_Init
+ .text.TDES_CBC_Encrypt_Append
+                0x08006efe       0xa4 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x08006efe                TDES_CBC_Encrypt_Append
+ .text.TDES_CBC_Encrypt_Finish
+                0x08006fa2       0x18 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x08006fa2                TDES_CBC_Encrypt_Finish
+ .text.TDES_CBC_Decrypt_Init
+                0x08006fba        0x6 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x08006fba                TDES_CBC_Decrypt_Init
+ .text.TDES_CBC_Decrypt_Append
+                0x08006fc0       0xae F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x08006fc0                TDES_CBC_Decrypt_Append
+ .text.TDES_CBC_Decrypt_Finish
+                0x0800706e       0x18 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800706e                TDES_CBC_Decrypt_Finish
+ .text.ARC4_Encrypt_Init
+                0x08007086       0x68 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x08007086                ARC4_Encrypt_Init
+ *fill*         0x080070ee        0x2 
+ .text.ARC4_Encrypt_Append
+                0x080070f0      0x174 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x080070f0                ARC4_Encrypt_Append
+ .text.ARC4_Encrypt_Finish
+                0x08007264       0x18 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x08007264                ARC4_Encrypt_Finish
+ .text.ARC4_Decrypt_Init
+                0x0800727c        0x4 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800727c                ARC4_Decrypt_Init
+ .text.ARC4_Decrypt_Append
+                0x08007280        0x4 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x08007280                ARC4_Decrypt_Append
+ .text.ARC4_Decrypt_Finish
+                0x08007284        0x4 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x08007284                ARC4_Decrypt_Finish
+ .text.crl_u_MD5_Init
+                0x08007288       0x2c F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x08007288                crl_u_MD5_Init
+ .text.MD5_Init
+                0x080072b4       0x1a F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x080072b4                MD5_Init
+ .text.crl_u_MD5_Update
+                0x080072ce       0x8a F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x080072ce                crl_u_MD5_Update
+ .text.MD5_Append
+                0x08007358       0x2a F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x08007358                MD5_Append
+ *fill*         0x08007382        0x2 
+ .text.crl_u_MD5_Finish
+                0x08007384       0x78 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x08007384                crl_u_MD5_Finish
+ .text.MD5_Finish
+                0x080073fc       0x4c F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x080073fc                MD5_Finish
+ .text.HMAC_MD5_Init
+                0x08007448       0xd4 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x08007448                HMAC_MD5_Init
+ .text.HMAC_MD5_Append
+                0x0800751c        0xe F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800751c                HMAC_MD5_Append
+ .text.HMAC_MD5_Finish
+                0x0800752a       0x62 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800752a                HMAC_MD5_Finish
+ .text.SHA1Init
+                0x0800758c       0x34 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800758c                SHA1Init
+ .text.SHA1_Init
+                0x080075c0       0x1a F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x080075c0                SHA1_Init
+ .text.SHA1Update
+                0x080075da       0x94 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x080075da                SHA1Update
+ .text.SHA1_Append
+                0x0800766e       0x2a F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800766e                SHA1_Append
+ .text.SHA1Final
+                0x08007698      0x100 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x08007698                SHA1Final
+ .text.SHA1_Finish
+                0x08007798       0x4c F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x08007798                SHA1_Finish
+ .text.HMAC_SHA1_Init
+                0x080077e4       0xd4 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x080077e4                HMAC_SHA1_Init
+ .text.HMAC_SHA1_Append
+                0x080078b8        0xe F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x080078b8                HMAC_SHA1_Append
+ .text.HMAC_SHA1_Finish
+                0x080078c6       0x60 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x080078c6                HMAC_SHA1_Finish
+ .text.SHA256Update
+                0x08007926       0x94 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x08007926                SHA256Update
+ .text.SHA224_Append
+                0x080079ba       0x2a F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x080079ba                SHA224_Append
+ .text.SHA224Init
+                0x080079e4       0x54 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x080079e4                SHA224Init
+ .text.SHA224_Init
+                0x08007a38       0x1a F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x08007a38                SHA224_Init
+ .text.SHA224Final
+                0x08007a52      0x100 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x08007a52                SHA224Final
+ .text.SHA224_Finish
+                0x08007b52       0x4c F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x08007b52                SHA224_Finish
+ .text.HMAC_SHA224_Init
+                0x08007b9e       0xd4 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x08007b9e                HMAC_SHA224_Init
+ .text.HMAC_SHA224_Append
+                0x08007c72        0xe F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x08007c72                HMAC_SHA224_Append
+ .text.HMAC_SHA224_Finish
+                0x08007c80       0x62 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x08007c80                HMAC_SHA224_Finish
+ .text.SHA256_Append
+                0x08007ce2       0x2a F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x08007ce2                SHA256_Append
+ .text.SHA256Init
+                0x08007d0c       0x50 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x08007d0c                SHA256Init
+ .text.SHA256_Init
+                0x08007d5c       0x1a F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x08007d5c                SHA256_Init
+ .text.SHA256Final
+                0x08007d76      0x100 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x08007d76                SHA256Final
+ .text.SHA256_Finish
+                0x08007e76       0x4c F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x08007e76                SHA256_Finish
+ .text.HMAC_SHA256_Init
+                0x08007ec2       0xd4 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x08007ec2                HMAC_SHA256_Init
+ .text.HMAC_SHA256_Append
+                0x08007f96        0xe F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x08007f96                HMAC_SHA256_Append
+ .text.HMAC_SHA256_Finish
+                0x08007fa4       0x62 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x08007fa4                HMAC_SHA256_Finish
+ .text.SHA512Update
+                0x08008006       0x96 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x08008006                SHA512Update
+ .text.SHA384_Append
+                0x0800809c       0x26 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800809c                SHA384_Append
+ .text.SHA512_Append.part.21
+                0x080080c2       0x1c F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+ *fill*         0x080080de        0x2 
+ .text.SHA384Init
+                0x080080e0       0xa0 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x080080e0                SHA384Init
+ .text.SHA384_Init
+                0x08008180       0x1a F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x08008180                SHA384_Init
+ .text.SHA384Final
+                0x0800819a      0x128 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800819a                SHA384Final
+ .text.SHA384_Finish
+                0x080082c2       0x4c F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x080082c2                SHA384_Finish
+ .text.HMAC_SHA384_Init
+                0x0800830e       0xd6 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800830e                HMAC_SHA384_Init
+ .text.HMAC_SHA384_Append
+                0x080083e4        0x6 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x080083e4                HMAC_SHA384_Append
+ .text.HMAC_SHA384_Finish
+                0x080083ea       0x66 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x080083ea                HMAC_SHA384_Finish
+ .text.SHA512_Append
+                0x08008450        0xe F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x08008450                SHA512_Append
+ *fill*         0x0800845e        0x2 
+ .text.SHA512Init
+                0x08008460       0xa0 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x08008460                SHA512Init
+ .text.SHA512_Init
+                0x08008500       0x1a F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x08008500                SHA512_Init
+ .text.SHA512Final
+                0x0800851a      0x138 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800851a                SHA512Final
+ .text.SHA512_Finish
+                0x08008652       0x4c F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x08008652                SHA512_Finish
+ .text.HMAC_SHA512_Init
+                0x0800869e       0xd6 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800869e                HMAC_SHA512_Init
+ .text.HMAC_SHA512_Append
+                0x08008774        0x6 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x08008774                HMAC_SHA512_Append
+ .text.HMAC_SHA512_Finish
+                0x0800877a       0x66 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800877a                HMAC_SHA512_Finish
+ .text.HKDF_SHA512
+                0x080087e0      0x170 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x080087e0                HKDF_SHA512
+ .text.StAllocBig
+                0x08008950       0x36 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x08008950                StAllocBig
+ .text.StFreeBig
+                0x08008986       0x1a F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x08008986                StFreeBig
+ .text.InitBig  0x080089a0       0x2e F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x080089a0                InitBig
+ .text.CopyBig  0x080089ce       0x54 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x080089ce                CopyBig
+ .text.Add_Moduli_Big
+                0x08008a22       0xd4 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+ .text.IsZeroBig
+                0x08008af6       0x18 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x08008af6                IsZeroBig
+ .text.SetZeroBig
+                0x08008b0e       0x24 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x08008b0e                SetZeroBig
+ .text.SignBig  0x08008b32        0xc F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x08008b32                SignBig
+ .text.EvenBig  0x08008b3e        0xe F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x08008b3e                EvenBig
+ .text.CompareBig
+                0x08008b4c       0x92 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x08008b4c                CompareBig
+ .text.CountBits
+                0x08008bde       0x3c F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x08008bde                CountBits
+ .text.CountBytes
+                0x08008c1a       0x30 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x08008c1a                CountBytes
+ .text.GiveBit  0x08008c4a       0x1c F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x08008c4a                GiveBit
+ *fill*         0x08008c66        0x2 
+ .text.W32_to_W8
+                0x08008c68       0x4c F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x08008c68                W32_to_W8
+ .text.W8_to_Big
+                0x08008cb4       0xb6 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x08008cb4                W8_to_Big
+ .text.Big_to_W8
+                0x08008d6a       0x52 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x08008d6a                Big_to_W8
+ .text.Big_to_fixedW8
+                0x08008dbc       0x44 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x08008dbc                Big_to_fixedW8
+ .text.FastMul2
+                0x08008e00       0x54 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x08008e00                FastMul2
+ .text.FastDiv2
+                0x08008e54       0x40 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x08008e54                FastDiv2
+ .text.FastMulInnerBase
+                0x08008e94       0x62 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x08008e94                FastMulInnerBase
+ .text.FastDivInnerBase
+                0x08008ef6       0x38 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x08008ef6                FastDivInnerBase
+ .text.LeftShift
+                0x08008f2e       0x74 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x08008f2e                LeftShift
+ .text.RightShift
+                0x08008fa2       0x4c F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x08008fa2                RightShift
+ .text.MulBigbyUnInt
+                0x08008fee       0x58 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x08008fee                MulBigbyUnInt
+ .text.Sub_Moduli_Big
+                0x08009046       0xd2 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x08009046                Sub_Moduli_Big
+ .text.AddBig   0x08009118      0x112 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x08009118                AddBig
+ .text.SubBig   0x0800922a       0xbc F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800922a                SubBig
+ .text.MontyInit
+                0x080092e6      0x140 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x080092e6                MontyInit
+ .text.MontyKillR2
+                0x08009426        0xe F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x08009426                MontyKillR2
+ .text.MontyKillAll
+                0x08009434       0x18 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x08009434                MontyKillAll
+ .text.MontyMul
+                0x0800944c      0x1d6 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800944c                MontyMul
+ .text.MontyExit
+                0x08009622       0x46 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x08009622                MontyExit
+ .text.ModularAddBig
+                0x08009668       0x44 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x08009668                ModularAddBig
+ .text.ModularSubBig
+                0x080096ac       0x2c F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x080096ac                ModularSubBig
+ .text.ModularFastMul2
+                0x080096d8       0x38 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x080096d8                ModularFastMul2
+ .text.ModularInvBig
+                0x08009710      0x1ba F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x08009710                ModularInvBig
+ .text.ModularExpSlidWin
+                0x080098ca      0x25c F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x080098ca                ModularExpSlidWin
+ .text.crl_ModularExp
+                0x08009b26      0x11e F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+ .text.RSASP1   0x08009c44       0x6c F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x08009c44                RSASP1
+ .text.RSAVP1   0x08009cb0       0x1e F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x08009cb0                RSAVP1
+ *fill*         0x08009cce        0x2 
+ .text.RSA_PKCS1v15_Sign
+                0x08009cd0      0x240 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x08009cd0                RSA_PKCS1v15_Sign
+ .text.RSA_PKCS1v15_Verify
+                0x08009f10      0x278 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x08009f10                RSA_PKCS1v15_Verify
+ .text.RSA_PKCS1v15_Decrypt
+                0x0800a188      0x1ac F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800a188                RSA_PKCS1v15_Decrypt
+ .text.crl_DRBG_AES128_Instantiate
+                0x0800a334       0xb0 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800a334                crl_DRBG_AES128_Instantiate
+ .text.crl_DRBG_AES128_Generate
+                0x0800a3e4       0x22 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800a3e4                crl_DRBG_AES128_Generate
+ .text.crl_DRBG_AES128_Reseed
+                0x0800a406       0x82 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800a406                crl_DRBG_AES128_Reseed
+ .text.RNGinit  0x0800a488       0x34 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800a488                RNGinit
+ .text.RNGfree  0x0800a4bc       0x24 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800a4bc                RNGfree
+ .text.RNGreseed
+                0x0800a4e0       0x20 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800a4e0                RNGreseed
+ .text.RNGgenBytes
+                0x0800a500       0x7a F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800a500                RNGgenBytes
+ *fill*         0x0800a57a        0x2 
+ .text.RSA_PKCS1v15_Encrypt
+                0x0800a57c      0x14c F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800a57c                RSA_PKCS1v15_Encrypt
+ .text.RNGgenWords
+                0x0800a6c8        0x6 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800a6c8                RNGgenWords
+ .text.GenRndBN
+                0x0800a6ce       0x7c F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800a6ce                GenRndBN
+ .text.GenRndBNmodN
+                0x0800a74a       0x32 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800a74a                GenRndBNmodN
+ .text.ECCpoint2Monty
+                0x0800a77c       0x40 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800a77c                ECCpoint2Monty
+ .text.ECCpointFromMonty
+                0x0800a7bc       0x3e F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800a7bc                ECCpointFromMonty
+ .text.MontyJacProjDoublePoint
+                0x0800a7fa      0x248 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800a7fa                MontyJacProjDoublePoint
+ .text.ECCinitEC
+                0x0800aa42      0x1ca F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800aa42                ECCinitEC
+ .text.ECCfreeEC
+                0x0800ac0c       0x7c F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800ac0c                ECCfreeEC
+ .text.ECCinitPoint
+                0x0800ac88       0xd2 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800ac88                ECCinitPoint
+ .text.ECCfreePoint
+                0x0800ad5a       0x3e F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800ad5a                ECCfreePoint
+ .text.ECCsetPointCoordinate
+                0x0800ad98       0x50 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800ad98                ECCsetPointCoordinate
+ .text.ECCgetPointCoordinate
+                0x0800ade8       0xb8 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800ade8                ECCgetPointCoordinate
+ .text.ECCgetPointFlag
+                0x0800aea0        0xc F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800aea0                ECCgetPointFlag
+ .text.ECCsetPointFlag
+                0x0800aeac        0x6 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800aeac                ECCsetPointFlag
+ .text.ECCcopyPoint
+                0x0800aeb2       0x50 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800aeb2                ECCcopyPoint
+ .text.ECCsymmetricPoint
+                0x0800af02       0x20 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800af02                ECCsymmetricPoint
+ .text.Normalize
+                0x0800af22      0x10a F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800af22                Normalize
+ .text.MontyJacProjAddPoints
+                0x0800b02c      0x266 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800b02c                MontyJacProjAddPoints
+ *fill*         0x0800b292        0x2 
+ .text.NAF_Binary_PointMul
+                0x0800b294      0x288 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800b294                NAF_Binary_PointMul
+ .text.Binary_DoublePointMul
+                0x0800b51c      0x140 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800b51c                Binary_DoublePointMul
+ .text.ECCinitPrivKey
+                0x0800b65c       0x66 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800b65c                ECCinitPrivKey
+ .text.ECCfreePrivKey
+                0x0800b6c2       0x2a F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800b6c2                ECCfreePrivKey
+ .text.ECCsetPrivKeyValue
+                0x0800b6ec       0x22 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800b6ec                ECCsetPrivKeyValue
+ *fill*         0x0800b70e        0x2 
+ .text.ECCgetPrivKeyValue
+                0x0800b710       0x8c F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800b710                ECCgetPrivKeyValue
+ .text.ECCscalarMul
+                0x0800b79c       0xe0 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800b79c                ECCscalarMul
+ .text.ECCsetPointGenerator
+                0x0800b87c       0x94 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800b87c                ECCsetPointGenerator
+ .text.ECDSAinitSign
+                0x0800b910       0x6e F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800b910                ECDSAinitSign
+ .text.ECDSAfreeSign
+                0x0800b97e       0x2e F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800b97e                ECDSAfreeSign
+ .text.ECDSAsetSignature
+                0x0800b9ac       0x2e F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800b9ac                ECDSAsetSignature
+ *fill*         0x0800b9da        0x2 
+ .text.ECDSAgetSignature
+                0x0800b9dc       0xac F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800b9dc                ECDSAgetSignature
+ .text.ECDSAverify
+                0x0800ba88      0x2fe F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800ba88                ECDSAverify
+ .text.ECCkeyGen
+                0x0800bd86       0xdc F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800bd86                ECCkeyGen
+ .text.ECDSAsign
+                0x0800be62      0x39c F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800be62                ECDSAsign
+ *fill*         0x0800c1fe        0x2 
+ .text.ECCvalidatePubKey
+                0x0800c200      0x250 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800c200                ECCvalidatePubKey
+ .text.salsa20_wordtobyte
+                0x0800c450      0x354 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800c450                salsa20_wordtobyte
+ .text.CHACHA_Encrypt_Init
+                0x0800c7a4       0xb0 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800c7a4                CHACHA_Encrypt_Init
+ .text.CHACHA_Encrypt_Append
+                0x0800c854       0xfa F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800c854                CHACHA_Encrypt_Append
+ .text.CHACHA_Encrypt_Finish
+                0x0800c94e       0x18 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800c94e                CHACHA_Encrypt_Finish
+ .text.CHACHA_Decrypt_Init
+                0x0800c966        0x4 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800c966                CHACHA_Decrypt_Init
+ .text.CHACHA_Decrypt_Append
+                0x0800c96a        0x4 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800c96a                CHACHA_Decrypt_Append
+ .text.CHACHA_Decrypt_Finish
+                0x0800c96e        0x4 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800c96e                CHACHA_Decrypt_Finish
+ *fill*         0x0800c972        0x2 
+ .text.Poly1305_Core_Update
+                0x0800c974      0x5a4 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800c974                Poly1305_Core_Update
+ .text.ChaCha20Poly1305_Append.part.36
+                0x0800cf18      0x12e F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+ *fill*         0x0800d046        0x2 
+ .text.Poly1305_Core_Finish
+                0x0800d048      0x230 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800d048                Poly1305_Core_Finish
+ .text.ChaCha20Poly1305_Common_Finish
+                0x0800d278       0x46 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+ .text.Poly1305_Auth_Init
+                0x0800d2be       0xa8 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800d2be                Poly1305_Auth_Init
+ .text.Poly1305_Auth_Append
+                0x0800d366       0x94 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800d366                Poly1305_Auth_Append
+ .text.Poly1305_Auth_Finish
+                0x0800d3fa       0x78 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800d3fa                Poly1305_Auth_Finish
+ .text.Poly1305_Verify_Init
+                0x0800d472        0x4 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800d472                Poly1305_Verify_Init
+ .text.Poly1305_Verify_Append
+                0x0800d476        0x4 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800d476                Poly1305_Verify_Append
+ .text.Poly1305_Verify_Finish
+                0x0800d47a       0x82 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800d47a                Poly1305_Verify_Finish
+ .text.ChaCha20Poly1305_Encrypt_Init
+                0x0800d4fc       0xe8 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800d4fc                ChaCha20Poly1305_Encrypt_Init
+ .text.ChaCha20Poly1305_Encrypt_Append
+                0x0800d5e4       0x2c F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800d5e4                ChaCha20Poly1305_Encrypt_Append
+ .text.ChaCha20Poly1305_Header_Append
+                0x0800d610       0x7e F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800d610                ChaCha20Poly1305_Header_Append
+ .text.ChaCha20Poly1305_Encrypt_Finish
+                0x0800d68e       0x48 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800d68e                ChaCha20Poly1305_Encrypt_Finish
+ .text.ChaCha20Poly1305_Decrypt_Init
+                0x0800d6d6        0x4 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800d6d6                ChaCha20Poly1305_Decrypt_Init
+ .text.ChaCha20Poly1305_Decrypt_Append
+                0x0800d6da       0x2e F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800d6da                ChaCha20Poly1305_Decrypt_Append
+ .text.ChaCha20Poly1305_Decrypt_Finish
+                0x0800d708       0x6e F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800d708                ChaCha20Poly1305_Decrypt_Finish
+ .text.sc25519_from32bytes
+                0x0800d776       0x34 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800d776                sc25519_from32bytes
+ .text.sc25519_from64bytes
+                0x0800d7aa       0x24 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800d7aa                sc25519_from64bytes
+ .text.sc25519_to32bytes
+                0x0800d7ce        0xe F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800d7ce                sc25519_to32bytes
+ .text.sc25519_add
+                0x0800d7dc       0x3a F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800d7dc                sc25519_add
+ .text.sc25519_mul
+                0x0800d816       0x5e F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800d816                sc25519_mul
+ .text.fe25519_unpack
+                0x0800d874       0x1c F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800d874                fe25519_unpack
+ .text.fe25519_cmov
+                0x0800d890       0x1a F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800d890                fe25519_cmov
+ .text.fe25519_copy
+                0x0800d8aa        0xe F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800d8aa                fe25519_copy
+ .text.fe25519_setone
+                0x0800d8b8       0x14 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800d8b8                fe25519_setone
+ .text.fe25519_setzero
+                0x0800d8cc        0xe F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800d8cc                fe25519_setzero
+ .text.setneutral
+                0x0800d8da       0x24 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+ .text.fe25519_add
+                0x0800d8fe       0x44 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800d8fe                fe25519_add
+ .text.fe25519_sub
+                0x0800d942       0x74 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800d942                fe25519_sub
+ .text.fe25519_neg
+                0x0800d9b6       0x28 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800d9b6                fe25519_neg
+ .text.fe25519_freeze
+                0x0800d9de       0x74 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800d9de                fe25519_freeze
+ .text.fe25519_pack
+                0x0800da52       0x2e F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800da52                fe25519_pack
+ .text.fe25519_iseq_vartime
+                0x0800da80       0x4e F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800da80                fe25519_iseq_vartime
+ .text.fe25519_getparity
+                0x0800dace       0x24 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800dace                fe25519_getparity
+ .text.fe25519_mul
+                0x0800daf2      0x1d4 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800daf2                fe25519_mul
+ .text.ed25519_double
+                0x0800dcc6       0xb4 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+ *fill*         0x0800dd7a        0x2 
+ .text.ed25519_add
+                0x0800dd7c       0xe0 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+ .text.ge25519_double_scalarmult_vartime
+                0x0800de5c       0x78 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800de5c                ge25519_double_scalarmult_vartime
+ .text.ge25519_scalarmult_base
+                0x0800ded4       0x6c F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800ded4                ge25519_scalarmult_base
+ .text.fe25519_square
+                0x0800df40        0x6 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800df40                fe25519_square
+ .text.fe25519_invert
+                0x0800df46      0x1cc F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800df46                fe25519_invert
+ .text.ge25519_pack
+                0x0800e112       0x40 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800e112                ge25519_pack
+ .text.fe25519_pow2523
+                0x0800e152      0x142 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800e152                fe25519_pow2523
+ .text.ge25519_unpackneg_vartime
+                0x0800e294      0x128 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800e294                ge25519_unpackneg_vartime
+ .text.fe25519_mult121665
+                0x0800e3bc       0x34 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800e3bc                fe25519_mult121665
+ .text.ED25519keyGen
+                0x0800e3f0       0x8c F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800e3f0                ED25519keyGen
+ .text.ED25519sign
+                0x0800e47c      0x15a F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800e47c                ED25519sign
+ *fill*         0x0800e5d6        0x2 
+ .text.ED25519verify
+                0x0800e5d8       0xcc F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800e5d8                ED25519verify
+ .text.C25519keyExchange
+                0x0800e6a4      0x184 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800e6a4                C25519keyExchange
+ .text.C25519keyGen
+                0x0800e828       0x46 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800e828                C25519keyGen
+ .text.STM32_GetCryptoLibrarySettings
+                0x0800e86e       0x42 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800e86e                STM32_GetCryptoLibrarySettings
+ .text.__libc_init_array
+                0x0800e8b0       0x48 d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7e-m/softfp/fpv5-sp-d16\libc.a(lib_a-init.o)
+                0x0800e8b0                __libc_init_array
+ .text.memcpy   0x0800e8f8       0x16 d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7e-m/softfp/fpv5-sp-d16\libc.a(lib_a-memcpy-stub.o)
+                0x0800e8f8                memcpy
+ .text.memmove  0x0800e90e       0x34 d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7e-m/softfp/fpv5-sp-d16\libc.a(lib_a-memmove.o)
+                0x0800e90e                memmove
+ .text.memset   0x0800e942       0x10 d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7e-m/softfp/fpv5-sp-d16\libc.a(lib_a-memset.o)
+                0x0800e942                memset
+ *(.glue_7)
+ .glue_7        0x0800e952        0x0 linker stubs
+ *(.glue_7t)
+ .glue_7t       0x0800e952        0x0 linker stubs
+ *(.eh_frame)
+ *fill*         0x0800e952        0x2 
+ .eh_frame      0x0800e954        0x0 d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/softfp/fpv5-sp-d16/crtbegin.o
+ .eh_frame      0x0800e954        0x4 d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/softfp/fpv5-sp-d16/crtend.o
+ *(.init)
+ .init          0x0800e958        0x4 d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/softfp/fpv5-sp-d16/crti.o
+                0x0800e958                _init
+ .init          0x0800e95c        0x8 d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/softfp/fpv5-sp-d16/crtn.o
+ *(.fini)
+ .fini          0x0800e964        0x4 d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/softfp/fpv5-sp-d16/crti.o
+                0x0800e964                _fini
+ .fini          0x0800e968        0x8 d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/softfp/fpv5-sp-d16/crtn.o
+                0x0800e970                . = ALIGN (0x4)
+                0x0800e970                _etext = .
+
+.vfp11_veneer   0x0800e970        0x0
+ .vfp11_veneer  0x0800e970        0x0 linker stubs
+
+.v4_bx          0x0800e970        0x0
+ .v4_bx         0x0800e970        0x0 linker stubs
+
+.iplt           0x0800e970        0x0
+ .iplt          0x0800e970        0x0 d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/softfp/fpv5-sp-d16/crtbegin.o
+
+.rodata         0x0800e970     0x1d2c
+                0x0800e970                . = ALIGN (0x4)
+ *(.rodata)
+ .rodata        0x0800e970       0x18 CMSIS\src\system_stm32f7xx.o
+                0x0800e970                AHBPrescTable
+                0x0800e980                APBPrescTable
+ .rodata        0x0800e988       0x92 Code\src\main.o
+                0x0800e988                PlainText
+                0x0800e9a8                Key1
+                0x0800e9c8                SequenceNumber
+                0x0800e9e8                Key
+ *fill*         0x0800ea1a        0x2 
+ .rodata        0x0800ea1c       0x15 Code\src\ulib.o
+ *fill*         0x0800ea31        0x3 
+ .rodata        0x0800ea34      0x2f8 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+ *(.rodata*)
+ .rodata.rcon   0x0800ed2c       0x28 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800ed2c                rcon
+ .rodata.MAC_CONF
+                0x0800ed54        0x2 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800ed54                MAC_CONF
+ .rodata.CORTEX_CONF
+                0x0800ed56        0x1 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800ed56                CORTEX_CONF
+ *fill*         0x0800ed57        0x1 
+ .rodata.m      0x0800ed58       0x20 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+ .rodata.IDE_CONF
+                0x0800ed78        0x1 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800ed78                IDE_CONF
+ .rodata.AES_CONF
+                0x0800ed79        0x1 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800ed79                AES_CONF
+ *fill*         0x0800ed7a        0x6 
+ .rodata.sha512_K
+                0x0800ed80      0x280 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+ .rodata.ENDIANNESS_CONF
+                0x0800f000        0x1 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800f000                ENDIANNESS_CONF
+ *fill*         0x0800f001        0x1 
+ .rodata.ASYM_KEY_CONF
+                0x0800f002        0x2 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800f002                ASYM_KEY_CONF
+ .rodata.dec_table
+                0x0800f004      0x400 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800f004                dec_table
+ .rodata.TYPE_CONF
+                0x0800f404        0x1 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800f404                TYPE_CONF
+ *fill*         0x0800f405        0x3 
+ .rodata.sigma  0x0800f408       0x10 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800f408                sigma
+ .rodata.K256   0x0800f418      0x100 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800f418                K256
+ .rodata.ge25519_ec2d
+                0x0800f518       0x20 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+ .rodata.enc_table
+                0x0800f538      0x400 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800f538                enc_table
+ .rodata.SP6    0x0800f938      0x100 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800f938                SP6
+ .rodata.InvSbox
+                0x0800fa38      0x100 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800fa38                InvSbox
+ .rodata.RSA_CONF
+                0x0800fb38        0x1 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800fb38                RSA_CONF
+ .rodata.MISALIGNED_CONF
+                0x0800fb39        0x1 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800fb39                MISALIGNED_CONF
+ .rodata.GCM_CONF
+                0x0800fb3a        0x1 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800fb3a                GCM_CONF
+ .rodata.IDE_OPTIMIZATION
+                0x0800fb3b        0x1 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800fb3b                IDE_OPTIMIZATION
+ .rodata.HASH_CONF
+                0x0800fb3c        0x2 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800fb3c                HASH_CONF
+ .rodata.pad.9517
+                0x0800fb3e       0x40 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+ .rodata.SYM_KEY_CONF
+                0x0800fb7e        0x2 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800fb7e                SYM_KEY_CONF
+ .rodata.ge25519_sqrtm1
+                0x0800fb80       0x20 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+ .rodata.mu     0x0800fba0       0x24 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+ .rodata.SP2    0x0800fbc4      0x100 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800fbc4                SP2
+ .rodata.SP3    0x0800fcc4      0x100 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800fcc4                SP3
+ .rodata.SP4    0x0800fdc4      0x100 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800fdc4                SP4
+ .rodata.SP5    0x0800fec4      0x100 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800fec4                SP5
+ .rodata.Sbox   0x0800ffc4      0x100 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0800ffc4                Sbox
+ .rodata.SP7    0x080100c4      0x100 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x080100c4                SP7
+ .rodata.SP8    0x080101c4      0x100 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x080101c4                SP8
+ .rodata.ge25519_base
+                0x080102c4       0x80 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x080102c4                ge25519_base
+ .rodata.ENC_DEC_CONF
+                0x08010344        0x1 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x08010344                ENC_DEC_CONF
+ *fill*         0x08010345        0x1 
+ .rodata.SYM_KEY_MODES_CONF
+                0x08010346        0x2 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x08010346                SYM_KEY_MODES_CONF
+ .rodata.DRBG_CONF
+                0x08010348        0x1 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x08010348                DRBG_CONF
+ *fill*         0x08010349        0x1 
+ .rodata.table_reduction4
+                0x0801034a       0x20 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+ *fill*         0x0801036a        0x2 
+ .rodata.SP1    0x0801036c      0x100 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0801036c                SP1
+ .rodata.tau    0x0801046c       0x10 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+ .rodata.table_reduction8
+                0x0801047c      0x200 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+ .rodata.ge25519_ecd
+                0x0801067c       0x20 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                0x0801069c                . = ALIGN (0x4)
+
+.rel.dyn        0x0801069c        0x0
+ .rel.iplt      0x0801069c        0x0 d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/softfp/fpv5-sp-d16/crtbegin.o
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+
+.ARM            0x0801069c        0x0
+                0x0801069c                __exidx_start = .
+ *(.ARM.exidx*)
+                0x0801069c                __exidx_end = .
+
+.preinit_array  0x0801069c        0x0
+                0x0801069c                PROVIDE (__preinit_array_start, .)
+ *(.preinit_array*)
+                0x0801069c                PROVIDE (__preinit_array_end, .)
+
+.init_array     0x0801069c        0x4
+                0x0801069c                PROVIDE (__init_array_start, .)
+ *(SORT(.init_array.*))
+ *(.init_array*)
+ .init_array    0x0801069c        0x4 d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/softfp/fpv5-sp-d16/crtbegin.o
+                0x080106a0                PROVIDE (__init_array_end, .)
+
+.fini_array     0x080106a0        0x4
+                [!provide]                PROVIDE (__fini_array_start, .)
+ *(SORT(.fini_array.*))
+ *(.fini_array*)
+ .fini_array    0x080106a0        0x4 d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/softfp/fpv5-sp-d16/crtbegin.o
+                [!provide]                PROVIDE (__fini_array_end, .)
+                0x080106a4                _sidata = LOADADDR (.data)
+
+.data           0x20020000        0xc load address 0x080106a4
+                0x20020000                . = ALIGN (0x4)
+                0x20020000                _sdata = .
+ *(.data)
+ .data          0x20020000        0x0 d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/softfp/fpv5-sp-d16/crti.o
+ .data          0x20020000        0x4 d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/softfp/fpv5-sp-d16/crtbegin.o
+                0x20020000                __dso_handle
+ .data          0x20020004        0x4 CMSIS\src\system_stm32f7xx.o
+                0x20020004                SystemCoreClock
+ .data          0x20020008        0x0 Code\src\AES_XTS.o
+ .data          0x20020008        0x0 Code\src\_Hendler.o
+ .data          0x20020008        0x4 Code\src\main.o
+                0x20020008                clock
+ .data          0x2002000c        0x0 Code\src\ulib.o
+ .data          0x2002000c        0x0 Startup\startup_stm32f767xx.o
+ .data          0x2002000c        0x0 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+ .data          0x2002000c        0x0 d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7e-m/softfp/fpv5-sp-d16\libc.a(lib_a-init.o)
+ .data          0x2002000c        0x0 d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7e-m/softfp/fpv5-sp-d16\libc.a(lib_a-memcpy-stub.o)
+ .data          0x2002000c        0x0 d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7e-m/softfp/fpv5-sp-d16\libc.a(lib_a-memmove.o)
+ .data          0x2002000c        0x0 d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7e-m/softfp/fpv5-sp-d16\libc.a(lib_a-memset.o)
+ .data          0x2002000c        0x0 d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/softfp/fpv5-sp-d16\libgcc.a(_arm_addsubdf3.o)
+ .data          0x2002000c        0x0 d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/softfp/fpv5-sp-d16\libgcc.a(_arm_muldivdf3.o)
+ .data          0x2002000c        0x0 d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/softfp/fpv5-sp-d16\libgcc.a(_arm_truncdfsf2.o)
+ .data          0x2002000c        0x0 d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/softfp/fpv5-sp-d16/crtend.o
+ .data          0x2002000c        0x0 d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/softfp/fpv5-sp-d16/crtn.o
+ *(.data*)
+                0x2002000c                . = ALIGN (0x4)
+                0x2002000c                _edata = .
+                0x080106b0                _sidtcmram = LOADADDR (.dtcmram)
+
+.igot.plt       0x2002000c        0x0 load address 0x080106b0
+ .igot.plt      0x2002000c        0x0 d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/softfp/fpv5-sp-d16/crtbegin.o
+
+.dtcmram        0x20000000        0x0 load address 0x080106b0
+                0x20000000                . = ALIGN (0x4)
+                0x20000000                _sdtcmram = .
+ *(.dtcmram)
+ *(.dtcmram*)
+                0x20000000                . = ALIGN (0x4)
+                0x20000000                _edtcmram = .
+                0x080106b0                _sisram2 = LOADADDR (.sram2)
+
+.sram2          0x2007c000        0x0 load address 0x080106b0
+                0x2007c000                . = ALIGN (0x4)
+                0x2007c000                _ssram2 = .
+ *(.sram2)
+ *(.sram2*)
+                0x2007c000                . = ALIGN (0x4)
+                0x2007c000                _esram2 = .
+                0x2007c000                . = ALIGN (0x4)
+
+.bss            0x2002000c      0x620
+                0x2002000c                _sbss = .
+                0x2002000c                __bss_start__ = _sbss
+ *(.bss)
+ .bss           0x2002000c        0x0 d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/softfp/fpv5-sp-d16/crti.o
+ .bss           0x2002000c       0x1c d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/softfp/fpv5-sp-d16/crtbegin.o
+ .bss           0x20020028        0x0 CMSIS\src\system_stm32f7xx.o
+ .bss           0x20020028        0x0 Code\src\AES_XTS.o
+ .bss           0x20020028        0x0 Code\src\_Hendler.o
+ .bss           0x20020028        0x0 Code\src\main.o
+ .bss           0x20020028        0x0 Code\src\ulib.o
+ .bss           0x20020028        0x0 Startup\startup_stm32f767xx.o
+ .bss           0x20020028        0x0 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+ .bss           0x20020028        0x0 d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7e-m/softfp/fpv5-sp-d16\libc.a(lib_a-init.o)
+ .bss           0x20020028        0x0 d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7e-m/softfp/fpv5-sp-d16\libc.a(lib_a-memcpy-stub.o)
+ .bss           0x20020028        0x0 d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7e-m/softfp/fpv5-sp-d16\libc.a(lib_a-memmove.o)
+ .bss           0x20020028        0x0 d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7e-m/softfp/fpv5-sp-d16\libc.a(lib_a-memset.o)
+ .bss           0x20020028        0x0 d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/softfp/fpv5-sp-d16\libgcc.a(_arm_addsubdf3.o)
+ .bss           0x20020028        0x0 d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/softfp/fpv5-sp-d16\libgcc.a(_arm_muldivdf3.o)
+ .bss           0x20020028        0x0 d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/softfp/fpv5-sp-d16\libgcc.a(_arm_truncdfsf2.o)
+ .bss           0x20020028        0x0 d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/softfp/fpv5-sp-d16/crtend.o
+ .bss           0x20020028        0x0 d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/softfp/fpv5-sp-d16/crtn.o
+ *(.bss*)
+ *(COMMON)
+ COMMON         0x20020028      0x40c Code\src\AES_XTS.o
+                0x20020028                temp
+                0x20020228                check
+                0x2002022c                AESctx
+ COMMON         0x20020434      0x192 Code\src\_Hendler.o
+                0x20020434                flag_get_byte
+                0x20020435                flag_led_init
+                0x20020436                STAT
+                0x20020437                addres
+                0x20020438                clock_TIM
+                0x2002043c                T_ARR
+                0x20020440                LED
+                0x20020444                bufferRessive
+                0x200204c0                str
+                0x200205c4                flag_get_array_byte
+                0x200205c5                flag_get_array_string
+ *fill*         0x200205c6        0x2 
+ COMMON         0x200205c8       0x64 Code\src\main.o
+                0x200205c8                new_array
+                0x2002062c                . = ALIGN (0x4)
+                0x2002062c                _ebss = .
+                0x2002062c                __bss_end__ = _ebss
+
+._user_heap_stack
+                0x2002062c      0x400
+                0x2002062c                . = ALIGN (0x4)
+                [!provide]                PROVIDE (end, .)
+                [!provide]                PROVIDE (_end, .)
+                0x2002062c                . = (. + _Min_Heap_Size)
+                0x20020a2c                . = (. + _Min_Stack_Size)
+ *fill*         0x2002062c      0x400 
+                0x20020a2c                . = ALIGN (0x4)
+
+.memory_b1_text
+ *(.mb1text)
+ *(.mb1text*)
+ *(.mb1rodata)
+ *(.mb1rodata*)
+
+/DISCARD/
+ libc.a(*)
+ libm.a(*)
+ libgcc.a(*)
+
+.ARM.attributes
+                0x00000000       0x2e
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x22 d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/softfp/fpv5-sp-d16/crti.o
+ .ARM.attributes
+                0x00000022       0x32 d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/softfp/fpv5-sp-d16/crtbegin.o
+ .ARM.attributes
+                0x00000054       0x37 CMSIS\src\system_stm32f7xx.o
+ .ARM.attributes
+                0x0000008b       0x37 Code\src\AES_XTS.o
+ .ARM.attributes
+                0x000000c2       0x37 Code\src\_Hendler.o
+ .ARM.attributes
+                0x000000f9       0x37 Code\src\main.o
+ .ARM.attributes
+                0x00000130       0x37 Code\src\ulib.o
+ .ARM.attributes
+                0x00000167       0x21 Startup\startup_stm32f767xx.o
+ .ARM.attributes
+                0x00000188       0x33 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+ .ARM.attributes
+                0x000001bb       0x32 d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7e-m/softfp/fpv5-sp-d16\libc.a(lib_a-init.o)
+ .ARM.attributes
+                0x000001ed       0x32 d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7e-m/softfp/fpv5-sp-d16\libc.a(lib_a-memcpy-stub.o)
+ .ARM.attributes
+                0x0000021f       0x32 d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7e-m/softfp/fpv5-sp-d16\libc.a(lib_a-memmove.o)
+ .ARM.attributes
+                0x00000251       0x32 d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7e-m/softfp/fpv5-sp-d16\libc.a(lib_a-memset.o)
+ .ARM.attributes
+                0x00000283       0x22 d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/softfp/fpv5-sp-d16\libgcc.a(_arm_addsubdf3.o)
+ .ARM.attributes
+                0x000002a5       0x22 d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/softfp/fpv5-sp-d16\libgcc.a(_arm_muldivdf3.o)
+ .ARM.attributes
+                0x000002c7       0x22 d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/softfp/fpv5-sp-d16\libgcc.a(_arm_truncdfsf2.o)
+ .ARM.attributes
+                0x000002e9       0x32 d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/softfp/fpv5-sp-d16/crtend.o
+ .ARM.attributes
+                0x0000031b       0x22 d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/softfp/fpv5-sp-d16/crtn.o
+OUTPUT(standarat_macro.elf elf32-littlearm)
+
+.debug_info     0x00000000     0x3ab7
+ .debug_info    0x00000000      0x6e7 CMSIS\src\system_stm32f7xx.o
+ .debug_info    0x000006e7     0x127a Code\src\AES_XTS.o
+ .debug_info    0x00001961      0x32c Code\src\_Hendler.o
+ .debug_info    0x00001c8d      0xc88 Code\src\main.o
+ .debug_info    0x00002915     0x1135 Code\src\ulib.o
+ .debug_info    0x00003a4a       0x6d Startup\startup_stm32f767xx.o
+
+.debug_abbrev   0x00000000      0x92c
+ .debug_abbrev  0x00000000      0x12a CMSIS\src\system_stm32f7xx.o
+ .debug_abbrev  0x0000012a      0x27b Code\src\AES_XTS.o
+ .debug_abbrev  0x000003a5      0x102 Code\src\_Hendler.o
+ .debug_abbrev  0x000004a7      0x1eb Code\src\main.o
+ .debug_abbrev  0x00000692      0x288 Code\src\ulib.o
+ .debug_abbrev  0x0000091a       0x12 Startup\startup_stm32f767xx.o
+
+.debug_aranges  0x00000000       0xc8
+ .debug_aranges
+                0x00000000       0x20 CMSIS\src\system_stm32f7xx.o
+ .debug_aranges
+                0x00000020       0x20 Code\src\AES_XTS.o
+ .debug_aranges
+                0x00000040       0x20 Code\src\_Hendler.o
+ .debug_aranges
+                0x00000060       0x20 Code\src\main.o
+ .debug_aranges
+                0x00000080       0x20 Code\src\ulib.o
+ .debug_aranges
+                0x000000a0       0x28 Startup\startup_stm32f767xx.o
+
+.debug_line     0x00000000      0xd86
+ .debug_line    0x00000000      0x17d CMSIS\src\system_stm32f7xx.o
+ .debug_line    0x0000017d      0x378 Code\src\AES_XTS.o
+ .debug_line    0x000004f5      0x1a5 Code\src\_Hendler.o
+ .debug_line    0x0000069a      0x2d5 Code\src\main.o
+ .debug_line    0x0000096f      0x398 Code\src\ulib.o
+ .debug_line    0x00000d07       0x7f Startup\startup_stm32f767xx.o
+
+.debug_str      0x00000000     0x1521
+ .debug_str     0x00000000      0x40b CMSIS\src\system_stm32f7xx.o
+                                0x45d (size before relaxing)
+ .debug_str     0x0000040b      0x652 Code\src\AES_XTS.o
+                                0xaa3 (size before relaxing)
+ .debug_str     0x00000a5d      0x165 Code\src\_Hendler.o
+                                0x335 (size before relaxing)
+ .debug_str     0x00000bc2       0x40 Code\src\main.o
+                                0x81b (size before relaxing)
+ .debug_str     0x00000c02      0x91f Code\src\ulib.o
+                                0xd13 (size before relaxing)
+
+.comment        0x00000000       0xfe
+ .comment       0x00000000       0x7c CMSIS\src\system_stm32f7xx.o
+                                 0x7d (size before relaxing)
+ .comment       0x0000007c       0x7d Code\src\AES_XTS.o
+ .comment       0x0000007c       0x7d Code\src\_Hendler.o
+ .comment       0x0000007c       0x7d Code\src\main.o
+ .comment       0x0000007c       0x7d Code\src\ulib.o
+ .comment       0x0000007c       0x82 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                                 0x83 (size before relaxing)
+
+.debug_frame    0x00000000      0x854
+ .debug_frame   0x00000000       0x58 CMSIS\src\system_stm32f7xx.o
+ .debug_frame   0x00000058       0xe4 Code\src\AES_XTS.o
+ .debug_frame   0x0000013c      0x12c Code\src\_Hendler.o
+ .debug_frame   0x00000268       0x30 Code\src\main.o
+ .debug_frame   0x00000298      0x400 Code\src\ulib.o
+ .debug_frame   0x00000698       0x2c d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7e-m/softfp/fpv5-sp-d16\libc.a(lib_a-init.o)
+ .debug_frame   0x000006c4       0x28 d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7e-m/softfp/fpv5-sp-d16\libc.a(lib_a-memcpy-stub.o)
+ .debug_frame   0x000006ec       0x28 d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7e-m/softfp/fpv5-sp-d16\libc.a(lib_a-memmove.o)
+ .debug_frame   0x00000714       0x20 d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7e-m/softfp/fpv5-sp-d16\libc.a(lib_a-memset.o)
+ .debug_frame   0x00000734       0xac d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/softfp/fpv5-sp-d16\libgcc.a(_arm_addsubdf3.o)
+ .debug_frame   0x000007e0       0x50 d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/softfp/fpv5-sp-d16\libgcc.a(_arm_muldivdf3.o)
+ .debug_frame   0x00000830       0x24 d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/softfp/fpv5-sp-d16\libgcc.a(_arm_truncdfsf2.o)
+
+.debug_ranges   0x00000000       0x20
+ .debug_ranges  0x00000000       0x20 Startup\startup_stm32f767xx.o
+
+Cross Reference Table
+
+Symbol                                            File
+ADC_IRQHandler                                    Startup\startup_stm32f767xx.o
+AES_CBC_Decrypt_Append                            F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+AES_CBC_Decrypt_Finish                            F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+AES_CBC_Decrypt_Init                              F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+AES_CBC_Encrypt_Append                            F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+AES_CBC_Encrypt_Finish                            F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+AES_CBC_Encrypt_Init                              F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+AES_CCM_Decrypt_Append                            F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+AES_CCM_Decrypt_Finish                            F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+AES_CCM_Decrypt_Init                              F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+AES_CCM_Encrypt_Append                            F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+AES_CCM_Encrypt_Finish                            F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+AES_CCM_Encrypt_Init                              F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+AES_CCM_Header_Append                             F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+AES_CFB_Decrypt_Append                            F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+AES_CFB_Decrypt_Finish                            F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+AES_CFB_Decrypt_Init                              F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+AES_CFB_Encrypt_Append                            F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+AES_CFB_Encrypt_Finish                            F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+AES_CFB_Encrypt_Init                              F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+AES_CMAC_Decrypt_Append                           F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+AES_CMAC_Decrypt_Finish                           F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+AES_CMAC_Decrypt_Init                             F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+AES_CMAC_Encrypt_Append                           F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+AES_CMAC_Encrypt_Finish                           F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+AES_CMAC_Encrypt_Init                             F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+AES_CONF                                          F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+AES_CTR_Decrypt_Append                            F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+AES_CTR_Decrypt_Finish                            F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+AES_CTR_Decrypt_Init                              F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+AES_CTR_Encrypt_Append                            F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+AES_CTR_Encrypt_Finish                            F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+AES_CTR_Encrypt_Init                              F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+AES_ECB_Decrypt_Append                            F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+AES_ECB_Decrypt_Finish                            F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+AES_ECB_Decrypt_Init                              F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+AES_ECB_Encrypt_Append                            F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+AES_ECB_Encrypt_Finish                            F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+AES_ECB_Encrypt_Init                              F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+AES_GCM_Decrypt_Append                            F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+AES_GCM_Decrypt_Finish                            F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+AES_GCM_Decrypt_Init                              F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+AES_GCM_Encrypt_Append                            F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+AES_GCM_Encrypt_Finish                            F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+AES_GCM_Encrypt_Init                              F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+AES_GCM_Header_Append                             F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+AES_KeyWrap_Decrypt_Append                        F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+AES_KeyWrap_Decrypt_Finish                        F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+AES_KeyWrap_Decrypt_Init                          F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+AES_KeyWrap_Encrypt_Append                        F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+AES_KeyWrap_Encrypt_Finish                        F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+AES_KeyWrap_Encrypt_Init                          F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+AES_OFB_Decrypt_Append                            F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+AES_OFB_Decrypt_Finish                            F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+AES_OFB_Decrypt_Init                              F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+AES_OFB_Encrypt_Append                            F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+AES_OFB_Encrypt_Finish                            F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+AES_OFB_Encrypt_Init                              F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+AES_XTS_Decrypt_Append                            F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                                                  Code\src\AES_XTS.o
+AES_XTS_Decrypt_Finish                            F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                                                  Code\src\AES_XTS.o
+AES_XTS_Decrypt_Init                              F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                                                  Code\src\AES_XTS.o
+AES_XTS_Encrypt_Append                            F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                                                  Code\src\AES_XTS.o
+AES_XTS_Encrypt_Finish                            F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                                                  Code\src\AES_XTS.o
+AES_XTS_Encrypt_Init                              F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+                                                  Code\src\AES_XTS.o
+AES_XTSinit                                       Code\src\AES_XTS.o
+                                                  Code\src\main.o
+AES_general_SW_dec                                F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+AES_general_SW_enc                                F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+AES_keyschedule_dec                               F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+AES_keyschedule_enc                               F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+AESctx                                            Code\src\main.o
+                                                  Code\src\AES_XTS.o
+AHBPrescTable                                     CMSIS\src\system_stm32f7xx.o
+APBPrescTable                                     CMSIS\src\system_stm32f7xx.o
+ARC4_Decrypt_Append                               F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+ARC4_Decrypt_Finish                               F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+ARC4_Decrypt_Init                                 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+ARC4_Encrypt_Append                               F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+ARC4_Encrypt_Finish                               F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+ARC4_Encrypt_Init                                 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+ASYM_KEY_CONF                                     F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+AddBig                                            F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+Big_to_W8                                         F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+Big_to_fixedW8                                    F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+Binary_DoublePointMul                             F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+Buffercmp                                         Code\src\AES_XTS.o
+BusFault_Handler                                  Code\src\_Hendler.o
+C25519keyExchange                                 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+C25519keyGen                                      F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+CAN1_RX0_IRQHandler                               Startup\startup_stm32f767xx.o
+CAN1_RX1_IRQHandler                               Startup\startup_stm32f767xx.o
+CAN1_SCE_IRQHandler                               Startup\startup_stm32f767xx.o
+CAN1_TX_IRQHandler                                Startup\startup_stm32f767xx.o
+CAN2_RX0_IRQHandler                               Startup\startup_stm32f767xx.o
+CAN2_RX1_IRQHandler                               Startup\startup_stm32f767xx.o
+CAN2_SCE_IRQHandler                               Startup\startup_stm32f767xx.o
+CAN2_TX_IRQHandler                                Startup\startup_stm32f767xx.o
+CAN3_RX0_IRQHandler                               Startup\startup_stm32f767xx.o
+CAN3_RX1_IRQHandler                               Startup\startup_stm32f767xx.o
+CAN3_SCE_IRQHandler                               Startup\startup_stm32f767xx.o
+CAN3_TX_IRQHandler                                Startup\startup_stm32f767xx.o
+CEC_IRQHandler                                    Startup\startup_stm32f767xx.o
+CHACHA_Decrypt_Append                             F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+CHACHA_Decrypt_Finish                             F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+CHACHA_Decrypt_Init                               F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+CHACHA_Encrypt_Append                             F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+CHACHA_Encrypt_Finish                             F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+CHACHA_Encrypt_Init                               F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+CORTEX_CONF                                       F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+ChaCha20Poly1305_Decrypt_Append                   F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+ChaCha20Poly1305_Decrypt_Finish                   F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+ChaCha20Poly1305_Decrypt_Init                     F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+ChaCha20Poly1305_Encrypt_Append                   F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+ChaCha20Poly1305_Encrypt_Finish                   F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+ChaCha20Poly1305_Encrypt_Init                     F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+ChaCha20Poly1305_Header_Append                    F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+CompareBig                                        F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+Connect_to_PC                                     Code\src\ulib.o
+CopyBig                                           F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+CountBits                                         F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+CountBytes                                        F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+DCMI_IRQHandler                                   Startup\startup_stm32f767xx.o
+DES_CBC_Decrypt_Append                            F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+DES_CBC_Decrypt_Finish                            F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+DES_CBC_Decrypt_Init                              F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+DES_CBC_Encrypt_Append                            F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+DES_CBC_Encrypt_Finish                            F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+DES_CBC_Encrypt_Init                              F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+DES_ECB_Decrypt_Append                            F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+DES_ECB_Decrypt_Finish                            F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+DES_ECB_Decrypt_Init                              F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+DES_ECB_Encrypt_Append                            F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+DES_ECB_Encrypt_Finish                            F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+DES_ECB_Encrypt_Init                              F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+DFSDM1_FLT0_IRQHandler                            Startup\startup_stm32f767xx.o
+DFSDM1_FLT1_IRQHandler                            Startup\startup_stm32f767xx.o
+DFSDM1_FLT2_IRQHandler                            Startup\startup_stm32f767xx.o
+DFSDM1_FLT3_IRQHandler                            Startup\startup_stm32f767xx.o
+DMA1_Stream0_IRQHandler                           Startup\startup_stm32f767xx.o
+DMA1_Stream1_IRQHandler                           Startup\startup_stm32f767xx.o
+DMA1_Stream2_IRQHandler                           Startup\startup_stm32f767xx.o
+DMA1_Stream3_IRQHandler                           Startup\startup_stm32f767xx.o
+DMA1_Stream4_IRQHandler                           Startup\startup_stm32f767xx.o
+DMA1_Stream5_IRQHandler                           Startup\startup_stm32f767xx.o
+DMA1_Stream6_IRQHandler                           Startup\startup_stm32f767xx.o
+DMA1_Stream7_IRQHandler                           Startup\startup_stm32f767xx.o
+DMA2D_IRQHandler                                  Startup\startup_stm32f767xx.o
+DMA2_Stream0_IRQHandler                           Startup\startup_stm32f767xx.o
+DMA2_Stream1_IRQHandler                           Startup\startup_stm32f767xx.o
+DMA2_Stream2_IRQHandler                           Startup\startup_stm32f767xx.o
+DMA2_Stream3_IRQHandler                           Startup\startup_stm32f767xx.o
+DMA2_Stream4_IRQHandler                           Startup\startup_stm32f767xx.o
+DMA2_Stream5_IRQHandler                           Startup\startup_stm32f767xx.o
+DMA2_Stream6_IRQHandler                           Startup\startup_stm32f767xx.o
+DMA2_Stream7_IRQHandler                           Startup\startup_stm32f767xx.o
+DRBG_CONF                                         F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+DebugMon_Handler                                  Code\src\_Hendler.o
+Default_Handler                                   Startup\startup_stm32f767xx.o
+ECCcopyPoint                                      F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+ECCfreeEC                                         F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+ECCfreePoint                                      F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+ECCfreePrivKey                                    F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+ECCgetPointCoordinate                             F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+ECCgetPointFlag                                   F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+ECCgetPrivKeyValue                                F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+ECCinitEC                                         F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+ECCinitPoint                                      F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+ECCinitPrivKey                                    F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+ECCkeyGen                                         F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+ECCpoint2Monty                                    F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+ECCpointFromMonty                                 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+ECCscalarMul                                      F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+ECCsetPointCoordinate                             F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+ECCsetPointFlag                                   F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+ECCsetPointGenerator                              F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+ECCsetPrivKeyValue                                F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+ECCsymmetricPoint                                 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+ECCvalidatePubKey                                 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+ECDSAfreeSign                                     F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+ECDSAgetSignature                                 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+ECDSAinitSign                                     F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+ECDSAsetSignature                                 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+ECDSAsign                                         F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+ECDSAverify                                       F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+ED25519keyGen                                     F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+ED25519sign                                       F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+ED25519verify                                     F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+ENC_DEC_CONF                                      F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+ENDIANNESS_CONF                                   F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+ETH_IRQHandler                                    Startup\startup_stm32f767xx.o
+ETH_WKUP_IRQHandler                               Startup\startup_stm32f767xx.o
+EXTI0_IRQHandler                                  Startup\startup_stm32f767xx.o
+EXTI15_10_IRQHandler                              Startup\startup_stm32f767xx.o
+EXTI1_IRQHandler                                  Startup\startup_stm32f767xx.o
+EXTI2_IRQHandler                                  Startup\startup_stm32f767xx.o
+EXTI3_IRQHandler                                  Startup\startup_stm32f767xx.o
+EXTI4_IRQHandler                                  Startup\startup_stm32f767xx.o
+EXTI9_5_IRQHandler                                Startup\startup_stm32f767xx.o
+Error_Handler                                     Code\src\_Hendler.o
+EvenBig                                           F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+FLASH_IRQHandler                                  Startup\startup_stm32f767xx.o
+FMC_IRQHandler                                    Startup\startup_stm32f767xx.o
+FPU_IRQHandler                                    Startup\startup_stm32f767xx.o
+FastDiv2                                          F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+FastDivInnerBase                                  F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+FastMul2                                          F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+FastMulInnerBase                                  F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+GCM_CONF                                          F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+GenRndBN                                          F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+GenRndBNmodN                                      F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+GiveBit                                           F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+HASH_CONF                                         F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+HKDF_SHA512                                       F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+HMAC_MD5_Append                                   F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+HMAC_MD5_Finish                                   F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+HMAC_MD5_Init                                     F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+HMAC_SHA1_Append                                  F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+HMAC_SHA1_Finish                                  F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+HMAC_SHA1_Init                                    F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+HMAC_SHA224_Append                                F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+HMAC_SHA224_Finish                                F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+HMAC_SHA224_Init                                  F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+HMAC_SHA256_Append                                F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+HMAC_SHA256_Finish                                F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+HMAC_SHA256_Init                                  F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+HMAC_SHA384_Append                                F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+HMAC_SHA384_Finish                                F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+HMAC_SHA384_Init                                  F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+HMAC_SHA512_Append                                F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+HMAC_SHA512_Finish                                F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+HMAC_SHA512_Init                                  F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+HSE_Enable                                        Code\src\ulib.o
+                                                  Code\src\main.o
+HardFault_Handler                                 Code\src\_Hendler.o
+I2C1_ER_IRQHandler                                Startup\startup_stm32f767xx.o
+I2C1_EV_IRQHandler                                Startup\startup_stm32f767xx.o
+I2C2_ER_IRQHandler                                Startup\startup_stm32f767xx.o
+I2C2_EV_IRQHandler                                Startup\startup_stm32f767xx.o
+I2C3_ER_IRQHandler                                Startup\startup_stm32f767xx.o
+I2C3_EV_IRQHandler                                Startup\startup_stm32f767xx.o
+I2C4_ER_IRQHandler                                Startup\startup_stm32f767xx.o
+I2C4_EV_IRQHandler                                Startup\startup_stm32f767xx.o
+IDE_CONF                                          F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+IDE_OPTIMIZATION                                  F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+InitBig                                           F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+InvSbox                                           F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+IsZeroBig                                         F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+JPEG_IRQHandler                                   Startup\startup_stm32f767xx.o
+K256                                              F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+Key                                               Code\src\main.o
+Key1                                              Code\src\main.o
+LED                                               Code\src\ulib.o
+                                                  Code\src\main.o
+                                                  Code\src\_Hendler.o
+LPTIM1_IRQHandler                                 Startup\startup_stm32f767xx.o
+LTDC_ER_IRQHandler                                Startup\startup_stm32f767xx.o
+LTDC_IRQHandler                                   Startup\startup_stm32f767xx.o
+LeftShift                                         F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+MAC_CONF                                          F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+MD5_Append                                        F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+MD5_Finish                                        F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+MD5_Init                                          F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+MDIOS_IRQHandler                                  Startup\startup_stm32f767xx.o
+MISALIGNED_CONF                                   F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+MemManage_Handler                                 Code\src\_Hendler.o
+ModularAddBig                                     F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+ModularExpSlidWin                                 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+ModularFastMul2                                   F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+ModularInvBig                                     F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+ModularSubBig                                     F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+MontyExit                                         F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+MontyInit                                         F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+MontyJacProjAddPoints                             F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+MontyJacProjDoublePoint                           F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+MontyKillAll                                      F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+MontyKillR2                                       F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+MontyMul                                          F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+MulBigbyUnInt                                     F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+NAF_Binary_PointMul                               F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+NMI_Handler                                       Code\src\_Hendler.o
+Normalize                                         F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+OTG_FS_IRQHandler                                 Startup\startup_stm32f767xx.o
+OTG_FS_WKUP_IRQHandler                            Startup\startup_stm32f767xx.o
+OTG_HS_EP1_IN_IRQHandler                          Startup\startup_stm32f767xx.o
+OTG_HS_EP1_OUT_IRQHandler                         Startup\startup_stm32f767xx.o
+OTG_HS_IRQHandler                                 Startup\startup_stm32f767xx.o
+OTG_HS_WKUP_IRQHandler                            Startup\startup_stm32f767xx.o
+PVD_IRQHandler                                    Startup\startup_stm32f767xx.o
+PWM_Init                                          Code\src\ulib.o
+PWM_Put                                           Code\src\ulib.o
+PendSV_Handler                                    Code\src\_Hendler.o
+PlainText                                         Code\src\main.o
+Poly1305_Auth_Append                              F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+Poly1305_Auth_Finish                              F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+Poly1305_Auth_Init                                F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+Poly1305_Core_Finish                              F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+Poly1305_Core_Update                              F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+Poly1305_Verify_Append                            F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+Poly1305_Verify_Finish                            F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+Poly1305_Verify_Init                              F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+QUADSPI_IRQHandler                                Startup\startup_stm32f767xx.o
+RCC_IRQHandler                                    Startup\startup_stm32f767xx.o
+RNG_IRQHandler                                    Startup\startup_stm32f767xx.o
+RNG_Init                                          Code\src\ulib.o
+RNGfree                                           F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+RNGgenBytes                                       F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+RNGgenWords                                       F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+RNGinit                                           F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+RNGreseed                                         F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+RSASP1                                            F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+RSAVP1                                            F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+RSA_CONF                                          F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+RSA_PKCS1v15_Decrypt                              F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+RSA_PKCS1v15_Encrypt                              F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+RSA_PKCS1v15_Sign                                 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+RSA_PKCS1v15_Verify                               F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+RTC_Alarm_IRQHandler                              Startup\startup_stm32f767xx.o
+RTC_WKUP_IRQHandler                               Startup\startup_stm32f767xx.o
+Reset_Handler                                     Startup\startup_stm32f767xx.o
+RightShift                                        F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+SAI1_IRQHandler                                   Startup\startup_stm32f767xx.o
+SAI2_IRQHandler                                   Startup\startup_stm32f767xx.o
+SDMMC1_IRQHandler                                 Startup\startup_stm32f767xx.o
+SDMMC2_IRQHandler                                 Startup\startup_stm32f767xx.o
+SHA1Final                                         F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+SHA1Init                                          F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+SHA1Update                                        F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+SHA1_Append                                       F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+SHA1_Finish                                       F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+SHA1_Init                                         F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+SHA224Final                                       F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+SHA224Init                                        F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+SHA224_Append                                     F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+SHA224_Finish                                     F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+SHA224_Init                                       F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+SHA256Final                                       F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+SHA256Init                                        F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+SHA256Update                                      F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+SHA256_Append                                     F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+SHA256_Finish                                     F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+SHA256_Init                                       F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+SHA384Final                                       F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+SHA384Init                                        F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+SHA384_Append                                     F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+SHA384_Finish                                     F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+SHA384_Init                                       F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+SHA512Final                                       F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+SHA512Init                                        F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+SHA512Update                                      F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+SHA512_Append                                     F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+SHA512_Finish                                     F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+SHA512_Init                                       F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+SP1                                               F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+SP2                                               F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+SP3                                               F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+SP4                                               F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+SP5                                               F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+SP6                                               F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+SP7                                               F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+SP8                                               F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+SPDIF_RX_IRQHandler                               Startup\startup_stm32f767xx.o
+SPI1_IRQHandler                                   Startup\startup_stm32f767xx.o
+SPI2_IRQHandler                                   Startup\startup_stm32f767xx.o
+SPI3_IRQHandler                                   Startup\startup_stm32f767xx.o
+SPI4_IRQHandler                                   Startup\startup_stm32f767xx.o
+SPI5_IRQHandler                                   Startup\startup_stm32f767xx.o
+SPI6_IRQHandler                                   Startup\startup_stm32f767xx.o
+SPI_Init                                          Code\src\ulib.o
+SPI_send_16byte_data                              Code\src\ulib.o
+SPI_send_cmd                                      Code\src\ulib.o
+SPI_send_data                                     Code\src\ulib.o
+SPI_write_byte                                    Code\src\ulib.o
+STAT                                              Code\src\ulib.o
+                                                  Code\src\main.o
+                                                  Code\src\_Hendler.o
+STM32_AES_XTS_Decrypt                             Code\src\AES_XTS.o
+                                                  Code\src\main.o
+STM32_AES_XTS_Encrypt                             Code\src\AES_XTS.o
+                                                  Code\src\main.o
+STM32_GetCryptoLibrarySettings                    F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+SVC_Handler                                       Code\src\_Hendler.o
+SYM_KEY_CONF                                      F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+SYM_KEY_MODES_CONF                                F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+Sbox                                              F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+SequenceNumber                                    Code\src\main.o
+SetZeroBig                                        F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+SignBig                                           F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+StAllocBig                                        F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+StFreeBig                                         F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+SubBig                                            F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+Sub_Moduli_Big                                    F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+SysTick_Handler                                   Code\src\_Hendler.o
+SystemCoreClock                                   CMSIS\src\system_stm32f7xx.o
+SystemCoreClockUpdate                             CMSIS\src\system_stm32f7xx.o
+SystemInit                                        CMSIS\src\system_stm32f7xx.o
+                                                  Startup\startup_stm32f767xx.o
+TAMP_STAMP_IRQHandler                             Startup\startup_stm32f767xx.o
+TDES_CBC_Decrypt_Append                           F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+TDES_CBC_Decrypt_Finish                           F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+TDES_CBC_Decrypt_Init                             F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+TDES_CBC_Encrypt_Append                           F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+TDES_CBC_Encrypt_Finish                           F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+TDES_CBC_Encrypt_Init                             F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+TDES_ECB_Decrypt_Append                           F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+TDES_ECB_Decrypt_Finish                           F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+TDES_ECB_Decrypt_Init                             F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+TDES_ECB_Encrypt_Append                           F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+TDES_ECB_Encrypt_Finish                           F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+TDES_ECB_Encrypt_Init                             F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+TIM1_BRK_TIM9_IRQHandler                          Startup\startup_stm32f767xx.o
+TIM1_CC_IRQHandler                                Startup\startup_stm32f767xx.o
+TIM1_TRG_COM_TIM11_IRQHandler                     Startup\startup_stm32f767xx.o
+TIM1_UP_TIM10_IRQHandler                          Code\src\ulib.o
+TIM2_IRQHandler                                   Startup\startup_stm32f767xx.o
+TIM3_IRQHandler                                   Startup\startup_stm32f767xx.o
+TIM4_IRQHandler                                   Startup\startup_stm32f767xx.o
+TIM5_IRQHandler                                   Startup\startup_stm32f767xx.o
+TIM6_DAC_IRQHandler                               Startup\startup_stm32f767xx.o
+TIM7_IRQHandler                                   Startup\startup_stm32f767xx.o
+TIM8_BRK_TIM12_IRQHandler                         Startup\startup_stm32f767xx.o
+TIM8_CC_IRQHandler                                Startup\startup_stm32f767xx.o
+TIM8_TRG_COM_TIM14_IRQHandler                     Startup\startup_stm32f767xx.o
+TIM8_UP_TIM13_IRQHandler                          Startup\startup_stm32f767xx.o
+TYPE_CONF                                         F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+T_ARR                                             Code\src\ulib.o
+                                                  Code\src\main.o
+                                                  Code\src\_Hendler.o
+UART4_IRQHandler                                  Startup\startup_stm32f767xx.o
+UART5_IRQHandler                                  Startup\startup_stm32f767xx.o
+UART7_IRQHandler                                  Startup\startup_stm32f767xx.o
+UART8_IRQHandler                                  Startup\startup_stm32f767xx.o
+UASRT_init                                        Code\src\ulib.o
+                                                  Code\src\main.o
+USART1_IRQHandler                                 Code\src\ulib.o
+USART2_IRQHandler                                 Startup\startup_stm32f767xx.o
+USART3_IRQHandler                                 Startup\startup_stm32f767xx.o
+USART6_IRQHandler                                 Startup\startup_stm32f767xx.o
+UsageFault_Handler                                Code\src\_Hendler.o
+W32_to_W8                                         F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+W8_to_Big                                         F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+WWDG_IRQHandler                                   Startup\startup_stm32f767xx.o
+__adddf3                                          d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/softfp/fpv5-sp-d16\libgcc.a(_arm_addsubdf3.o)
+__aeabi_d2f                                       d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/softfp/fpv5-sp-d16\libgcc.a(_arm_truncdfsf2.o)
+                                                  Code\src\ulib.o
+__aeabi_dadd                                      d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/softfp/fpv5-sp-d16\libgcc.a(_arm_addsubdf3.o)
+__aeabi_ddiv                                      d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/softfp/fpv5-sp-d16\libgcc.a(_arm_muldivdf3.o)
+                                                  Code\src\ulib.o
+__aeabi_dmul                                      d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/softfp/fpv5-sp-d16\libgcc.a(_arm_muldivdf3.o)
+                                                  Code\src\ulib.o
+__aeabi_drsub                                     d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/softfp/fpv5-sp-d16\libgcc.a(_arm_addsubdf3.o)
+__aeabi_dsub                                      d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/softfp/fpv5-sp-d16\libgcc.a(_arm_addsubdf3.o)
+__aeabi_f2d                                       d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/softfp/fpv5-sp-d16\libgcc.a(_arm_addsubdf3.o)
+                                                  Code\src\ulib.o
+__aeabi_i2d                                       d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/softfp/fpv5-sp-d16\libgcc.a(_arm_addsubdf3.o)
+__aeabi_l2d                                       d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/softfp/fpv5-sp-d16\libgcc.a(_arm_addsubdf3.o)
+__aeabi_ui2d                                      d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/softfp/fpv5-sp-d16\libgcc.a(_arm_addsubdf3.o)
+__aeabi_ul2d                                      d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/softfp/fpv5-sp-d16\libgcc.a(_arm_addsubdf3.o)
+__deregister_frame_info                           d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/softfp/fpv5-sp-d16/crtbegin.o
+__divdf3                                          d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/softfp/fpv5-sp-d16\libgcc.a(_arm_muldivdf3.o)
+__dso_handle                                      d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/softfp/fpv5-sp-d16/crtbegin.o
+__extendsfdf2                                     d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/softfp/fpv5-sp-d16\libgcc.a(_arm_addsubdf3.o)
+__floatdidf                                       d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/softfp/fpv5-sp-d16\libgcc.a(_arm_addsubdf3.o)
+__floatsidf                                       d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/softfp/fpv5-sp-d16\libgcc.a(_arm_addsubdf3.o)
+__floatundidf                                     d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/softfp/fpv5-sp-d16\libgcc.a(_arm_addsubdf3.o)
+__floatunsidf                                     d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/softfp/fpv5-sp-d16\libgcc.a(_arm_addsubdf3.o)
+__init_array_end                                  d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7e-m/softfp/fpv5-sp-d16\libc.a(lib_a-init.o)
+__init_array_start                                d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7e-m/softfp/fpv5-sp-d16\libc.a(lib_a-init.o)
+__libc_init_array                                 d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7e-m/softfp/fpv5-sp-d16\libc.a(lib_a-init.o)
+                                                  Startup\startup_stm32f767xx.o
+__muldf3                                          d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/softfp/fpv5-sp-d16\libgcc.a(_arm_muldivdf3.o)
+__preinit_array_end                               d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7e-m/softfp/fpv5-sp-d16\libc.a(lib_a-init.o)
+__preinit_array_start                             d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7e-m/softfp/fpv5-sp-d16\libc.a(lib_a-init.o)
+__register_frame_info                             d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/softfp/fpv5-sp-d16/crtbegin.o
+__subdf3                                          d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/softfp/fpv5-sp-d16\libgcc.a(_arm_addsubdf3.o)
+__truncdfsf2                                      d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/softfp/fpv5-sp-d16\libgcc.a(_arm_truncdfsf2.o)
+_ebss                                             Startup\startup_stm32f767xx.o
+_edata                                            Startup\startup_stm32f767xx.o
+_estack                                           Startup\startup_stm32f767xx.o
+_fini                                             d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/softfp/fpv5-sp-d16/crti.o
+_init                                             d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/softfp/fpv5-sp-d16/crti.o
+                                                  d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7e-m/softfp/fpv5-sp-d16\libc.a(lib_a-init.o)
+_sbss                                             Startup\startup_stm32f767xx.o
+_sdata                                            Startup\startup_stm32f767xx.o
+_sidata                                           Startup\startup_stm32f767xx.o
+addres                                            Code\src\ulib.o
+                                                  Code\src\main.o
+                                                  Code\src\_Hendler.o
+blink                                             Code\src\ulib.o
+                                                  Code\src\_Hendler.o
+bufferRessive                                     Code\src\ulib.o
+                                                  Code\src\main.o
+                                                  Code\src\_Hendler.o
+check                                             Code\src\main.o
+                                                  Code\src\AES_XTS.o
+clock                                             Code\src\main.o
+                                                  Code\src\ulib.o
+clock_TIM                                         Code\src\ulib.o
+                                                  Code\src\main.o
+                                                  Code\src\_Hendler.o
+crl_DRBG_AES128_Generate                          F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+crl_DRBG_AES128_Instantiate                       F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+crl_DRBG_AES128_Reseed                            F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+crl_u_MD5_Finish                                  F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+crl_u_MD5_Init                                    F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+crl_u_MD5_Update                                  F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+dec_table                                         F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+delay                                             Code\src\ulib.o
+enc_table                                         F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+fe25519_add                                       F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+fe25519_cmov                                      F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+fe25519_copy                                      F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+fe25519_freeze                                    F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+fe25519_getparity                                 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+fe25519_invert                                    F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+fe25519_iseq_vartime                              F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+fe25519_mul                                       F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+fe25519_mult121665                                F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+fe25519_neg                                       F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+fe25519_pack                                      F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+fe25519_pow2523                                   F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+fe25519_setone                                    F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+fe25519_setzero                                   F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+fe25519_square                                    F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+fe25519_sub                                       F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+fe25519_unpack                                    F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+flag_get_array_byte                               Code\src\ulib.o
+                                                  Code\src\main.o
+                                                  Code\src\_Hendler.o
+flag_get_array_string                             Code\src\ulib.o
+                                                  Code\src\main.o
+                                                  Code\src\_Hendler.o
+flag_get_byte                                     Code\src\ulib.o
+                                                  Code\src\main.o
+                                                  Code\src\_Hendler.o
+flag_led_init                                     Code\src\ulib.o
+                                                  Code\src\main.o
+                                                  Code\src\_Hendler.o
+g_pfnVectors                                      Startup\startup_stm32f767xx.o
+ge25519_base                                      F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+ge25519_double_scalarmult_vartime                 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+ge25519_pack                                      F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+ge25519_scalarmult_base                           F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+ge25519_unpackneg_vartime                         F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+get_array_byte                                    Code\src\ulib.o
+get_array_str                                     Code\src\ulib.o
+get_byte                                          Code\src\ulib.o
+indication_led_init                               Code\src\ulib.o
+                                                  Code\src\main.o
+init_disp                                         Code\src\ulib.o
+interrupt_timer                                   Code\src\ulib.o
+main                                              Code\src\main.o
+                                                  Startup\startup_stm32f767xx.o
+memcpy                                            d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7e-m/softfp/fpv5-sp-d16\libc.a(lib_a-memcpy-stub.o)
+                                                  F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+memmove                                           d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7e-m/softfp/fpv5-sp-d16\libc.a(lib_a-memmove.o)
+                                                  F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+memset                                            d:/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7e-m/softfp/fpv5-sp-d16\libc.a(lib_a-memset.o)
+                                                  F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+new_array                                         Code\src\main.o
+number_gen                                        Code\src\ulib.o
+print_str                                         Code\src\ulib.o
+                                                  Code\src\main.o
+rcon                                              F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+salsa20_wordtobyte                                F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+sc25519_add                                       F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+sc25519_from32bytes                               F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+sc25519_from64bytes                               F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+sc25519_mul                                       F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+sc25519_to32bytes                                 F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+send_array                                        Code\src\ulib.o
+                                                  Code\src\main.o
+send_array_byte                                   Code\src\ulib.o
+send_byte                                         Code\src\ulib.o
+sigma                                             F:\Atollic_space\standarat_macro\Library\libSTM32CryptographicV3.0.0_CM7_GCC.a(crypto.o)
+str                                               Code\src\ulib.o
+                                                  Code\src\main.o
+                                                  Code\src\_Hendler.o
+temp                                              Code\src\main.o
+                                                  Code\src\AES_XTS.o

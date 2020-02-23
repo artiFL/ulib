@@ -1,0 +1,9 @@
+core_cm7.h:1896:22:__NVIC_EnableIRQ	16	static
+core_cm7.h:2024:22:__NVIC_SetPriority	16	static
+serial_Debugging.c:16:6:USART_Init	24	static
+serial_Debugging.c:71:6:send_b	16	static
+serial_Debugging.c:79:6:send_string	24	static
+serial_Debugging.c:92:6:USART3_IRQHandler	8	static
+serial_Debugging.c:102:6:Read	4	static
+serial_Debugging.c:108:6:enable_irq_f	8	static
+serial_Debugging.c:116:6:Send_signature	24	static

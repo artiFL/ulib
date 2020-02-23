@@ -1,0 +1,10 @@
+_Hendler.c:6:6:Error_Handler	8	static
+_Hendler.c:20:6:NMI_Handler	4	static
+_Hendler.c:29:6:HardFault_Handler	4	static
+_Hendler.c:42:6:MemManage_Handler	4	static
+_Hendler.c:55:6:BusFault_Handler	4	static
+_Hendler.c:68:6:UsageFault_Handler	4	static
+_Hendler.c:81:6:SVC_Handler	4	static
+_Hendler.c:90:6:DebugMon_Handler	4	static
+_Hendler.c:99:6:PendSV_Handler	4	static
+_Hendler.c:108:6:SysTick_Handler	4	static
